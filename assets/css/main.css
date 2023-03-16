@@ -115,6 +115,13 @@ p {
   display: table-cell;
   vertical-align: middle;
 }
+/* CARD SECTION */
+
+.card-img {
+  object-fit: cover;
+  height: 100%;
+}
+
 
 /* GOOGLE MAP */
 div#map {
