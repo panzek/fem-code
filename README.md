@@ -2,7 +2,10 @@
 
 ## Introduction
 
-March 2023 women in code hackathon  
+March 2023 Women in Tech hackathon.
+
+Women working are often underrepresented in technical roles, particularly in leadership positions. This can create a culture where women feel isolated and excluded, and may not have role models or mentors to support their career development.
+
 <br>
 
 ## Table of Contents
@@ -42,20 +45,20 @@ March 2023 women in code hackathon
 
 ### User stories
 
-* As a user of the Fem Code website, I want the ability to learn about women working in tech and the support that is available to me when pursuing a career in tech. This will allow me to make informed decision on the next steps in my career. 
-    * End user goal: provide navigational links for different categories related to tech roles. Allowing user to access links with further information as a well a link to a "contact" page for mentorship requests.
-    * Acceptance criteria: Allow the user to easily navigate through the site and access key information.
-    * Measurement of success: 
-
-* As a user of the Fem Code website, I want the ability to visualise successful women working within tech.
-    * End user goal:
+* As a woman in a technical role and user of the Fem Code website, I want to be able to connect with other women in similar positions to share experiences, advice, and support. I would like the website to provide a platform for networking and community building, with features such as a forum, groups, and events. 
+    * End user goal:  
     * Acceptance criteria: 
-    * Measurement of success: 
+    * Measurement of success:
 
-* As a user of the FemCode website, I want to enter in contact with them.
-    * End user goal:
+* As a woman in a technical role and user of the Fem Code website, I want to be able to connect with experienced women in my field to learn from their experiences and get advice on navigating my career. I would like the website to offer a mentorship program that matches me with a mentor who can provide guidance and support.
+    * End user goal:  
     * Acceptance criteria: 
-    * Measurement of success: Recipet of fully completed mentorship requests.
+    * Measurement of success:
+ 
+* As a woman aspiring to a leadership role in a technical field and user of the Fem Code website, I want to be able to access resources and guidance on career development, leadership skills, and overcoming gender bias. I would like the website to offer  articles, webinars and training courses tailored to women in tech.
+    * End user goal:  
+    * Acceptance criteria: 
+    * Measurement of success:
 
 <br>
 
