@@ -71,3 +71,8 @@ ul {
    display: table-cell;
    vertical-align: middle;
 }
+
+/* GOOGLE MAP */
+div#map {
+    min-height: 360px;
+}
