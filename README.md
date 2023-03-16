@@ -43,12 +43,19 @@ March 2023 women in code hackathon
 ### User stories
 
 * As a user of the Fem Code website, I want the ability to learn about women working in tech and the support that is available to me when pursuing a career in tech. This will allow me to make informed decision on the next steps in my career. 
-    * End user goal: _______________________________ 
-    * End business goal: _____________________________ 
+    * End user goal: provide navigational links for different categories related to tech roles. Allowing user to access links with further information as a well a link to a "contact" page for mentorship requests.
+    * Acceptance criteria: Allow the user to easily navigate through the site and access key information.
+    * Measurement of success: 
+
+* As a user of the Fem Code website, I want the ability to visualise successful women working within tech.
+    * End user goal:
     * Acceptance criteria: 
-        * product defines any initial functionality requirements they can think of * this is a loose outline that will be finalized through wireframes, flows and discussions * acceptance criteria must be finalized before dev starts 
-    * Measurement of success: ___________________________ 
-        * Measurement of success is the way in which we will prove the story was successful in meeting the user and business goal defined above. This will initially be left blank and will be determined through conversations with research, ux and product. This must be finalized before dev starts.
+    * Measurement of success: 
+
+* As a user of the FemCode website, I want to enter in contact with them.
+    * End user goal:
+    * Acceptance criteria: 
+    * Measurement of success: Recipet of fully completed mentorship requests.
 
 <br>
 
@@ -69,16 +76,12 @@ March 2023 women in code hackathon
 ### Typography
 ### Imagery
 #### Logo
-
 ### Wireframes
 
 <br>
 
 ## Deployment & Usage
 ### Remote Deployment
-
-<br>
-
 ### How To Fork
 ### How To Clone
 
