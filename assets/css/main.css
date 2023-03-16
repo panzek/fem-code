@@ -110,3 +110,13 @@ p {
     display: table-cell;
     vertical-align: middle;
 }
+
+.hero-section .text-box {
+   display: table-cell;
+   vertical-align: middle;
+}
+
+/* GOOGLE MAP */
+div#map {
+    min-height: 360px;
+}
