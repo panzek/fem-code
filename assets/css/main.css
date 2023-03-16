@@ -1,5 +1,73 @@
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300;1,500;1,700;1,900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 850px;
+}
+
+img {
+    width: 100%
+}
+
+.logo {
+    width: 150px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Navbar */
+
+.social-contact {
+    background-color: aqua;
+    height: 50px;
+}
+
+.social-contact ul {
+    margin-top: 12px;
+}
+
+.social-contact ul li  {
+    padding-right: 25px;
+}
+
+.navbar {
+    padding: 0 50px;
+}
+
+.navbar .navbar-collapse,
+.social-contact ul {
+    justify-content: end;
+}
+
+/* HERO SECTION */
+.hero-section {
+    background-image: linear-gradient(rgba(0,0,0,.1),#a072a0), url(../images/femcode_bg-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 85vh;
+    position: relative;
+}
+
+.hero-section .container {
+    display: table;
+}
+
+.hero-section .text-box {
+   display: table-cell;
+   vertical-align: middle;
 }
