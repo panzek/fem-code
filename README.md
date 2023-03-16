@@ -2,19 +2,14 @@
 
 ## Introduction
 
-March 2023 women in code hackathon
+March 2023 women in code hackathon  
+<br>
 
-
-
+## Table of Contents
 ​
-## Team Name: Code Crusaders
-​
-
-​
-## Contents
-​
-* [User Experience (UX)](#user-experience)
-  * [User Stories](#user-stories)
+* [Introduction](#introduction)
+* [User Experience](#user-experience)
+    * [User stories](#user-stories)
 * [Technology](#technology)
   * [Tech Stack](#tech-stack)
   * [Languages](#languages)
@@ -27,7 +22,7 @@ March 2023 women in code hackathon
   * [Imagery](#imagery)
     * [Logo](#logo)
   * [Wireframes](#wireframes)
-* [Deployment & Usage](#deployment)
+* [Deployment & Usage](#deployment--usage)
   * [Remote Deployment](#remote-deployment)
   * [How To Fork](#how-to-fork)
   * [How To Clone](#how-to-clone)
@@ -36,107 +31,81 @@ March 2023 women in code hackathon
   * [Content](#content)
   * [Media](#media)
   * [Acknowledgements](#acknowledgements)
-​
+<br>
+
 ## User Experience
 
-
+* Easily navigate website content and pages
+* Ability to contact individuals to request mentorship
+* "ADD MORE DETAILS HERE"
+<br>
 
 ### User stories
 
-## Technology:
+* As a user of the Fem Code website, I want the ability to learn about women working in tech and the support that is available to me when pursuing a career in tech. This will allow me to make informed decision on the next steps in my career. 
+    * End user goal: _______________________________ 
+    * End business goal: _____________________________ 
+    * Acceptance criteria: 
+        * product defines any initial functionality requirements they can think of * this is a loose outline that will be finalized through wireframes, flows and discussions * acceptance criteria must be finalized before dev starts 
+    * Measurement of success: ___________________________ 
+        * Measurement of success is the way in which we will prove the story was successful in meeting the user and business goal defined above. This will initially be left blank and will be determined through conversations with research, ux and product. This must be finalized before dev starts.
 
+<br>
+
+## Technology
 ### Tech Stack
-​
+### Languages
 
-### Languages:
+<br>
 
+## Initial MVP Idea
+### Actual idea & content
+### Future Development
 
+<br>
 
-* Tools
-  
-
-​
-## Initial MVP Idea:
-​
-
-​
-### Actual idea & content:
-​
-
-​
-- File structure:
-    
-   
-### Future Development:
-
-
-​
 ## Design
-​
-### Color Scheme:
+### Color Scheme
+### Typography
+### Imagery
+#### Logo
 
-​
-### Typography:
+### Wireframes
 
-​
-### Imagery:
+<br>
 
-​
-#### Logo:
-
-
-
-
-### Wireframes:
-​
-#### Mobile Wireframes:
-ames Mobile](docs/wireframes/mobile.png)
-​
-#### Desktop Wireframes:
-​
-
-​
-## Deployment
-
+## Deployment & Usage
 ### Remote Deployment
 
+<br>
 
-### How to Fork
-To fork the repository:
+### How To Fork
+### How To Clone
 
-* Log in (or sign up) to [Github](https://github.com/).
-* Go to the repository for this project. [Code In Action - Support Change](https://github.com/KTC96/hackathon-feb-23)
-* Click the Fork button in the top right corner.
+<br>
 
-### How to Clone
-To clone the repository:
-
-* Log in (or sign up) to [Github](https://github.com/).
-* Go to the repository for this project. [Code In Action - Support Change](https://github.com/KTC96/hackathon-feb-23)
-* Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
-* Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
-* Type 'git clone' into the terminal and then paste the link you copied in step 3.
-* Press enter.
-​
 ## Testing
 
+<br>
 
-
-
-​
 ## Credits
-
 ### Content
-
-​
 ### Media
-
-​
 ### Acknowledgements
-Thanks to the Code Institute's hackteam for another amazing hackathon.
+Thanks to the Code Institute's hackteam for another great hackathon.
 
-This project was developed by: 
+This project was developed by:
 
-[Kyle](https://github.com/KTC96)
+[Kyle]()
 
+[Peter]()
 
+[Carmen]()
+
+[Kayla]()
+
+[Pedro]()
+
+[Hashim]()
+
+[Chris]()
