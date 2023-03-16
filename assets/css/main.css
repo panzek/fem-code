@@ -1,122 +1,166 @@
 /* GOOGLE FONTS */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300;1,500;1,700;1,900&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-:root{
-    --interactive-color : rgb(230, 0, 182);
-    --white-color: #dad1d1;
+:root {
+  --interactive-color: rgb(230, 0, 182);
+  --white-color: #dad1d1;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .interacti-color {
-    color: var(--interactive-color)
+  color: var(--interactive-color);
 }
 
 img {
-    width: 100%
+  width: 100%;
 }
 
 .logo {
-    width: 150px;
+  width: 150px;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 a {
-    text-decoration: none;
-    color: var(--white-color);
+  text-decoration: none;
+  color: var(--white-color);
 }
 
-
 .title {
-    font-size: 5rem;
-    color: var(--white-color);
+  font-size: 5rem;
+  color: var(--white-color);
 }
 
 p {
-    font-size: 1.5rem;
-    color: var(--white-color)
+  font-size: 1.5rem;
+  color: var(--white-color);
 }
 
 .btn {
-    border: 1px solid var(--white-color);
-    padding: 12px 18px;
-    font-size: 1.2rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: var(--white-color);
-    cursor: pointer;
-    transition: all ease-in .3s;
+  border: 1px solid var(--white-color);
+  padding: 12px 18px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--white-color);
+  cursor: pointer;
+  transition: all ease-in 0.3s;
 }
 
 .btn:hover {
-    background-color: var(--interactive-color);
-    z-index: 10000;
+  background-color: var(--interactive-color);
+  z-index: 10000;
 }
 /* Navbar */
 
 .social-contact {
-    background-color: rgb(0, 255, 255);
-    height: 50px;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    z-index: 1;
+  background-color: rgb(0, 255, 255);
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
 }
 
 .social-contact ul {
-    margin-top: 12px;
+  margin-top: 12px;
 }
 
-.social-contact ul li  {
-    padding-right: 25px;
+.social-contact ul li {
+  padding-right: 25px;
 }
 
 .navbar {
-    padding: 0 50px;
-    height: 100px;
-    color: transparent !important;
-    z-index: 100;
+  padding: 0 50px;
+  height: 100px;
+  color: transparent !important;
+  z-index: 100;
 }
 
 .navbar .navbar-collapse,
 .social-contact ul {
-    justify-content: end;
+  justify-content: end;
 }
 
 /* HERO SECTION */
 .hero-section {
-    background-image: linear-gradient(rgba(0,0,0,.1),#a072a0), url(../images/femcode_bg-2.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
-    top: -5px;
-    position: relative;
-    display: table;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), #a072a0),
+    url(../images/femcode_bg-2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  top: -5px;
+  position: relative;
+  display: table;
 }
 
 .hero-section .container {
-    display: table-cell;
-    vertical-align: middle;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .hero-section .text-box {
-   display: table-cell;
-   vertical-align: middle;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 /* GOOGLE MAP */
 div#map {
-    min-height: 360px;
+  min-height: 360px;
+}
+
+/* LEARN PAGE */
+
+.card {
+  margin-bottom: 30px;
+}
+
+.card-img-top {
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-text {
+  color: black;
+}
+
+.social-media {
+  margin-top: 10px;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+.social-media li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-media li:last-child {
+  margin-right: 0;
+}
+
+.social-media li a {
+  color: #e700b7;
+  font-size: 20px;
+}
+
+.social-media li a:hover {
+    color: #a072a0;
 }
