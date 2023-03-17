@@ -223,6 +223,18 @@ p {
   text-decoration: underline;
 }
 
+.accordion-flush .accordion-item .accordion-button, .accordion-flush .accordion-item .accordion-button.collapsed {
+  background-color: var(--interactive-color);
+  color: #ffffff;
+  margin: 2px;
+  font-weight: bolder;
+}
+
+.accordion-button::after{
+  background-color: var(--white-color);
+  border-radius: 50%;
+}
+
 /* LEARN PAGE */
 .card {
   margin-bottom: 30px;
