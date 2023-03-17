@@ -120,7 +120,7 @@ p {
   background-color: rgba(0, 0, 0, 0.5);
   height: 90px;
   transition: all ease-in 0.3s;
- 
+
 }
 
 
@@ -150,6 +150,7 @@ p {
   display: table-cell;
   vertical-align: middle;
 }
+
 /* CARD SECTION */
 
 .card-img {
@@ -170,7 +171,9 @@ p {
   font-weight: 700;
 }
 
-.success a:hover, .accordion-body a:hover, .develop-links:hover {
+.success a:hover,
+.accordion-body a:hover,
+.develop-links:hover {
   color: #0f916a;
 }
 
@@ -225,19 +228,21 @@ p {
   margin: 14px 0;
 }
 
-.develop-links, .accordion-body a {
+.develop-links,
+.accordion-body a {
   color: #e600b6;
   text-decoration: underline;
 }
 
-.accordion-flush .accordion-item .accordion-button, .accordion-flush .accordion-item .accordion-button.collapsed {
+.accordion-flush .accordion-item .accordion-button,
+.accordion-flush .accordion-item .accordion-button.collapsed {
   background-color: var(--interactive-color);
   color: #ffffff;
   margin: 2px;
   font-weight: bolder;
 }
 
-.accordion-button::after{
+.accordion-button::after {
   background-color: var(--white-color);
   border-radius: 50%;
 }
@@ -245,7 +250,7 @@ p {
 /* LEARN PAGE */
 
 .container-profile {
-  padding-top:175px;
+  padding-top: 175px;
 }
 
 .card {
@@ -295,6 +300,7 @@ p {
 .form-section {
   margin-top: 180px;
 }
+
 #message {
   height: 120px;
 }
@@ -313,6 +319,59 @@ p {
 }
 
 
+/*ABOUT US PAGE */
+
+.about-section-img {
+
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), #a072a0),
+    url('../images/about_us.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  top: -5px;
+  position: relative;
+  display: flex;
+}
+
+.about-section-img {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.about-container {
+  margin: auto;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.profile-image-container {
+  height: 200px;
+    width: 200px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.kyle-image {
+  background: url('../images/kyle-image.jpg') no-repeat center center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+ 
+}
+
+
+
 /* 404 Page  */
 
 .page-404 {
@@ -324,8 +383,7 @@ p {
 /* Portrait */
 
 /* Screen sizes equal to or narrower 280px wide */
-@media screen and (max-width: 280px) 
-and (orientation: portrait) {
+@media screen and (max-width: 280px) and (orientation: portrait) {
 
   .page-404 {
     margin-top: 6em;
@@ -349,8 +407,7 @@ and (orientation: portrait) {
 }
 
 /* Screen sizes equal to or narrower 540px wide */
-@media screen and (max-width: 540px) 
-and (orientation: portrait) {
+@media screen and (max-width: 540px) and (orientation: portrait) {
 
   .page-404 {
     margin-top: 8em;
@@ -386,7 +443,7 @@ and (orientation: portrait) {
   color: var(--white-color);
 }
 
-.footer p  {
+.footer p {
   font-size: 0.9rem;
   width: 300px;
   color: rgb(128, 128, 128);
@@ -409,7 +466,7 @@ and (orientation: portrait) {
 }
 
 .footer .social-contac ul {
- margin-left: -29px;
+  margin-left: -29px;
 }
 
 .footer .social-contac li {
@@ -423,7 +480,6 @@ and (orientation: portrait) {
 }
 
 .footer .social-contac li:hover {
+
   background: #3f5a52;
 }
-
-
