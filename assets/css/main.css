@@ -17,7 +17,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.interacti-color {
+.interactive-color {
   color: var(--interactive-color);
 }
 
@@ -97,6 +97,7 @@ p {
   width: 100%;
   padding: 20px 50px;
   margin: 50px 0 !important;
+  top: 0;
 }
 
 .navbar .navbar-collapse,
@@ -119,7 +120,7 @@ p {
   background-color: rgba(0, 0, 0, 0.5);
   height: 90px;
   transition: all ease-in 0.3s;
-  top: 0;
+ 
 }
 
 /* HERO SECTION */
@@ -167,8 +168,7 @@ p {
   font-weight: 700;
 }
 
-.success a:hover {
-  /* color: #296c53; */
+.success a:hover, .accordion-body a:hover, .develop-links:hover {
   color: #0f916a;
 }
 
@@ -223,9 +223,21 @@ p {
   margin: 14px 0;
 }
 
-.develop-links:hover {
+.develop-links, .accordion-body a {
   color: #e600b6;
   text-decoration: underline;
+}
+
+.accordion-flush .accordion-item .accordion-button, .accordion-flush .accordion-item .accordion-button.collapsed {
+  background-color: var(--interactive-color);
+  color: #ffffff;
+  margin: 2px;
+  font-weight: bolder;
+}
+
+.accordion-button::after{
+  background-color: var(--white-color);
+  border-radius: 50%;
 }
 
 /* LEARN PAGE */
@@ -272,6 +284,10 @@ p {
 }
 
 /* CONTACT PAGE */
+
+.form-section {
+  margin-top: 180px;
+}
 #message {
   height: 120px;
 }
