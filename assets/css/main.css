@@ -289,3 +289,49 @@ p {
 .page-404 {
   margin-top: 5%;
 }
+
+/* Start of media queries section*/
+
+/* Portrait */
+
+/* Screen sizes equal to or narrower 280px wide */
+@media screen and (max-width: 280px) 
+and (orientation: portrait) {
+
+  .page-404 {
+    margin-top: 6em;
+  }
+
+  .page-404-image {
+    margin-bottom: 5em;
+  }
+
+  .page-404-text-display {
+    display: none;
+  }
+
+  .btn.page-404-btn-display {
+    border: 1px solid var(--interactive-color);
+    margin-top: .8em;
+    padding: 5px;
+    font-size: .8rem;
+  }
+
+}
+
+/* Screen sizes equal to or narrower 540px wide */
+@media screen and (max-width: 540px) 
+and (orientation: portrait) {
+
+  .page-404 {
+    margin-top: 8em;
+  }
+
+  .page-404-image {
+    margin-bottom: 5em;
+  }
+
+  .page-404-text-display {
+    display: none;
+  }
+}
