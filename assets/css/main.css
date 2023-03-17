@@ -17,7 +17,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.interacti-color {
+.interactive-color {
   color: var(--interactive-color);
 }
 
@@ -93,6 +93,7 @@ p {
   width: 100%;
   padding: 20px 50px;
   margin: 50px 0 !important;
+  top: 0;
 }
 
 .navbar .navbar-collapse,
@@ -115,7 +116,7 @@ p {
   background-color: rgba(0, 0, 0, 0.5);
   height: 90px;
   transition: all ease-in 0.3s;
-  top: 0;
+ 
 }
 
 /* HERO SECTION */
@@ -279,6 +280,10 @@ p {
 }
 
 /* CONTACT PAGE */
+
+.form-section {
+  margin-top: 180px;
+}
 #message {
   height: 120px;
 }
@@ -354,8 +359,5 @@ p {
 
 .footer .social-contac li:hover {
   background: #3f5a52;
-}
-
-  background-color: #005b40;
 }
 
