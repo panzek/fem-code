@@ -59,6 +59,15 @@ Women working are often underrepresented in technical roles, particularly in lea
 
 ## Technology
 ### Tech Stack
+
+[![My Tech Stack](https://github-readme-tech-stack.vercel.app/api/cards?title=Support%20Change&lineCount=1&line1=HTML5,HTML5,a41d4e;CSS3,CSS3,da4650;Bootstrap,Bootstrap,a85ac8;JavaScript,JavaScript,17acf8;)](https://github-readme-tech-stack.vercel.app/api/cards?title=Support%20Change&lineCount=1&line1=HTML5,HTML5,a41d4e;CSS3,CSS3,da4650;Bootstrap,Bootstrap,a85ac8;JavaScript,JavaScript,17acf8;)
+
+<!-- * Google APP Script was used to create the contact form. -->
+* Bootstrap: Boostrap enables building of webpages quickly, which is key in short turnaround project.
+* Git
+* GitHub
+* GitHub Pages
+
 ### Languages
 
 * HTML: HTML was used to create the basic architecture of our website.
@@ -69,6 +78,7 @@ Women working are often underrepresented in technical roles, particularly in lea
   * [Coolors](https://coolors.co/): Coolors was used to create the color palette
   * [Google Fonts](https://fonts.google.com/): Google Fonts was used to select the fonts
   * [Stack Overflow](https://stackoverflow.com/): Stack Overflow was used to improve CSS design.
+  * [Canva](https://www.canva.com/): used to create the favicon
 
 
 <br>
@@ -104,13 +114,11 @@ The colour palette uses colours from the FemCode logo.
 Roboto and Sans Serrif were identified as suitable fonts to be used on the website​
 
 ### Imagery
-INSERT LINKS HERE AS TO WJERE IMAGES WERE TAKEN
+[Unsplash](https://unsplash.com/) and [Freepik](https://www.freepik.com/) were used to source copyright free images for the website gallery
 
 #### Logo
 
-[Canva](https://www.canva.com/) was used to create the Fem Code Logo
-
-INSERT LINKS HERE AS TO WHERE THE LOGO WAS CREATED
+[Canva](https://www.canva.com/), [Photopea](https://www.photopea.com/), [Pixlr](https://pixlr.com/)  was used to create the Fem Code Logo
 
 ### Wireframes
 
@@ -118,8 +126,31 @@ INSERT LINKS HERE AS TO WHERE THE LOGO WAS CREATED
 
 ## Deployment & Usage
 ### Remote Deployment
+The site was deployed to GitHub pages. In order to deploy the website, the following steps were taken:
+* In the GitHub repository, navigate to the Settings tab
+* On the left side menu, on the section Code and automation, click on Pages.
+* From the source section drop-down menu, select the Deploy from a branch.
+* From the branch section drop-down menu, select main, right on the side select /root.
+* Once the the branch menus have been selected, github will create the page. It might take a few minutes. Once it is done a link will show up on the top of the page.
+* The live link can be found here: [Fem Code](https://panzek.github.io/fem-code/).
+
+
+
 ### How To Fork
+To fork the repository:
+* Log in (or sign up) to [Github](https://github.com/).
+* Go to the repository for this project: [Fem Code](https://github.com/panzek/fem-code).
+* Click the Fork button in the top right corner.
+
 ### How To Clone
+
+To clone the repository:
+* Log in (or sign up) to [Github](https://github.com/).
+* Go to the repository for this project: [Fem Code](https://github.com/panzek/fem-code).
+* Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+* Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+* Type 'git clone' into the terminal and then paste the link you copied in step 3.
+* Press enter.
 
 <br>
 
