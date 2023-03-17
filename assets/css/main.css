@@ -26,11 +26,18 @@ img {
 
 .logo {
   width: 150px;
+  transition: all ease-in .3s;
 }
+
+.logo.active {
+  width: 110px;
+}
+
 
 ul {
   list-style: none;
 }
+
 a {
   text-decoration: none;
   color: var(--white-color);
@@ -61,10 +68,10 @@ p {
   background-color: var(--interactive-color);
   z-index: 10000;
 }
-/* Navbar */
 
+/* Navbar */
 .social-contact {
-  background-color: rgb(0, 255, 255);
+  background-color: rgb(38, 14, 248);
   height: 50px;
   width: 100%;
   position: fixed;
@@ -81,16 +88,37 @@ p {
 }
 
 .navbar {
-  padding: 0 50px;
-  height: 100px;
-  color: transparent !important;
+  height: 120px;
   z-index: 100;
+  width: 100%;
+  padding: 20px 50px;
+  margin: 50px 0 !important;
 }
+
 
 .navbar .navbar-collapse,
 .social-contact ul {
   justify-content: end;
 }
+
+.navbar .nav-link {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.social-contact a.active,
+.navbar-nav a.active{
+  color: var(--white-color) !important;
+  transition: all ease-in .3s;
+}
+
+.navbar.active {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 90px;
+  transition: all ease-in .3s;
+  top:0;
+}
+
 
 /* HERO SECTION */
 .hero-section {
