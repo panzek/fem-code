@@ -1,20 +1,20 @@
-# FemCode
+![Fem Code](assets/images/fewcode_logo_no_bg.png)
+
+<br>
 
 ## Introduction
 
-March 2023 women in code hackathon
+March 2023 Women in Tech hackathon.
 
+Women working are often underrepresented in technical roles, particularly in leadership positions. This can create a culture where women feel isolated and excluded, and may not have role models or mentors to support their career development.
 
+<br>
 
+## Table of Contents
 ​
-## Team Name: Code Crusaders
-​
-
-​
-## Contents
-​
-* [User Experience (UX)](#user-experience)
-  * [User Stories](#user-stories)
+* [Introduction](#introduction)
+* [User Experience](#user-experience)
+    * [User stories](#user-stories)
 * [Technology](#technology)
   * [Tech Stack](#tech-stack)
   * [Languages](#languages)
@@ -27,7 +27,7 @@ March 2023 women in code hackathon
   * [Imagery](#imagery)
     * [Logo](#logo)
   * [Wireframes](#wireframes)
-* [Deployment & Usage](#deployment)
+* [Deployment & Usage](#deployment--usage)
   * [Remote Deployment](#remote-deployment)
   * [How To Fork](#how-to-fork)
   * [How To Clone](#how-to-clone)
@@ -36,107 +36,113 @@ March 2023 women in code hackathon
   * [Content](#content)
   * [Media](#media)
   * [Acknowledgements](#acknowledgements)
-​
+<br>
+
 ## User Experience
 
-
+* Easily navigate website content and pages
+* Ability to contact individuals to request mentorship
+* "ADD MORE DETAILS HERE"
+<br>
 
 ### User stories
 
-## Technology:
+* As a woman in a technical role and user of the Fem Code website, I want to be able to connect with other women in similar positions to share experiences, advice, and support. I would like the website to provide a platform for networking and community building, with features such as a forum, groups, and events. 
 
+* As a woman in a technical role and user of the Fem Code website, I want to be able to connect with experienced women in my field to learn from their experiences and get advice on navigating my career. I would like the website to offer a mentorship program that matches me with a mentor who can provide guidance and support.
+ 
+* As a woman aspiring to a leadership role in a technical field and user of the Fem Code website, I want to be able to access resources and guidance on career development, leadership skills, and overcoming gender bias. I would like the website to offer  articles, webinars and training courses tailored to women in tech.
+
+<br>
+
+## Technology
 ### Tech Stack
-​
+### Languages
 
-### Languages:
-
-
+* HTML: HTML was used to create the basic architecture of our website.
+* CSS: We used CSS to style our HTML elements.
+* JavaScript: We used JavaScript to enhance the map functions.
 
 * Tools
-  
-
-​
-## Initial MVP Idea:
-​
-
-​
-### Actual idea & content:
-​
-
-​
-- File structure:
-    
-   
-### Future Development:
+  * [Coolors](https://coolors.co/): Coolors was used to create the color palette
+  * [Google Fonts](https://fonts.google.com/): Google Fonts was used to select the fonts
+  * [Stack Overflow](https://stackoverflow.com/): Stack Overflow was used to improve CSS design.
 
 
-​
+<br>
+
+## Initial MVP Idea
+### Actual idea & content
+
+#### Content
+The following website were used to create and develop content for Fem Code website.
+
+* [CIO](https://www.cio.com/article/215709/16-organizations-for-women-in-tech.html): Information taken to populate groups for women in tech
+* [Wired](https://www.wired.com/insights/2013/08/breaking-into-tech-5-tips-for-women/): Information taken to populate tips for women working in tech.
+* [Tech Target](https://www.techtarget.com/whatis/feature/Top-9-most-influential-women-in-technology): Information taken to populate top women in tech.
+
+### Future Development
+
+<br>
+
 ## Design
-​
-### Color Scheme:
+### Color Scheme
+The colour palette uses colours from the FemCode logo.
 
-​
-### Typography:
+- #E600B6
+- #00FFFF
+- #E700B7 
+- #000000
+- #A072A0
+- #005B40
 
-​
-### Imagery:
+![Color Palette](assets/images/color-scheme.png)
 
-​
-#### Logo:
+### Typography
+Roboto and Sans Serrif were identified as suitable fonts to be used on the website​
 
+### Imagery
+INSERT LINKS HERE AS TO WJERE IMAGES WERE TAKEN
 
+#### Logo
 
+[Canva](https://www.canva.com/) was used to create the Fem Code Logo
 
-### Wireframes:
-​
-#### Mobile Wireframes:
-ames Mobile](docs/wireframes/mobile.png)
-​
-#### Desktop Wireframes:
-​
+INSERT LINKS HERE AS TO WHERE THE LOGO WAS CREATED
 
-​
-## Deployment
+### Wireframes
 
+<br>
+
+## Deployment & Usage
 ### Remote Deployment
+### How To Fork
+### How To Clone
 
+<br>
 
-### How to Fork
-To fork the repository:
-
-* Log in (or sign up) to [Github](https://github.com/).
-* Go to the repository for this project. [Code In Action - Support Change](https://github.com/KTC96/hackathon-feb-23)
-* Click the Fork button in the top right corner.
-
-### How to Clone
-To clone the repository:
-
-* Log in (or sign up) to [Github](https://github.com/).
-* Go to the repository for this project. [Code In Action - Support Change](https://github.com/KTC96/hackathon-feb-23)
-* Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
-* Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
-* Type 'git clone' into the terminal and then paste the link you copied in step 3.
-* Press enter.
-​
 ## Testing
 
+<br>
 
-
-
-​
 ## Credits
-
 ### Content
-
-​
 ### Media
-
-​
 ### Acknowledgements
-Thanks to the Code Institute's hackteam for another amazing hackathon.
+Thanks to the Code Institute's hackteam for another great hackathon.
 
-This project was developed by: 
+This project was developed by:
 
 [Kyle](https://github.com/KTC96)
 
+[Peter](https://github.com/panzek)
 
+[Carmen](https://github.com/CarmenCantudo)
+
+[Kayla](https://github.com/Kaylaesmith1)
+
+[Pedro](https://github.com/PedroCristo)
+
+[Hashim](https://github.com/hashim222)
+
+[Chris](https://github.com/CMed01)
