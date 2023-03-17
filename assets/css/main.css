@@ -236,6 +236,11 @@ p {
 }
 
 /* LEARN PAGE */
+
+.container-profile {
+  padding-top:175px;
+}
+
 .card {
   margin-bottom: 30px;
 }
