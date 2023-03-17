@@ -1,4 +1,6 @@
-# FemCode
+![Fem Code](assets/images/fewcode_logo_no_bg.png)
+
+<br>
 
 ## Introduction
 
@@ -76,9 +78,29 @@ Women working are often underrepresented in technical roles, particularly in lea
 
 ## Design
 ### Color Scheme
+The colour palette uses colours from the FemCode logo.
+
+- #E600B6
+- #00FFFF
+- #E700B7 
+- #000000
+- #A072A0
+- #005B40
+
+![Color Palette](assets/images/color-scheme.png)
+
 ### Typography
+Roboto and Sans Serrif were identified as suitable fonts to be used on the website​
+
 ### Imagery
+INSERT LINKS HERE AS TO WJERE IMAGES WERE TAKEN
+
 #### Logo
+
+[Canva](https://www.canva.com/) was used to create the Fem Code Logo
+
+INSERT LINKS HERE AS TO WHERE THE LOGO WAS CREATED
+
 ### Wireframes
 
 <br>
@@ -102,16 +124,16 @@ Thanks to the Code Institute's hackteam for another great hackathon.
 
 This project was developed by:
 
-[Kyle]()
+[Kyle](https://github.com/KTC96)
 
-[Peter]()
+[Peter](https://github.com/panzek)
 
-[Carmen]()
+[Carmen](https://github.com/CarmenCantudo)
 
-[Kayla]()
+[Kayla](https://github.com/Kaylaesmith1)
 
-[Pedro]()
+[Pedro](https://github.com/PedroCristo)
 
-[Hashim]()
+[Hashim](https://github.com/hashim222)
 
-[Chris]()
+[Chris](https://github.com/CMed01)
