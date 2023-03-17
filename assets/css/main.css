@@ -161,8 +161,7 @@ p {
   font-weight: 700;
 }
 
-.success a:hover {
-  /* color: #296c53; */
+.success a:hover, .accordion-body a:hover, .develop-links:hover {
   color: #0f916a;
 }
 
@@ -217,7 +216,7 @@ p {
   margin: 14px 0;
 }
 
-.develop-links:hover {
+.develop-links, .accordion-body a {
   color: #e600b6;
   text-decoration: underline;
 }
