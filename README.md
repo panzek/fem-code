@@ -48,19 +48,10 @@ Women working are often underrepresented in technical roles, particularly in lea
 ### User stories
 
 * As a woman in a technical role and user of the Fem Code website, I want to be able to connect with other women in similar positions to share experiences, advice, and support. I would like the website to provide a platform for networking and community building, with features such as a forum, groups, and events. 
-    * End user goal:  
-    * Acceptance criteria: 
-    * Measurement of success:
 
 * As a woman in a technical role and user of the Fem Code website, I want to be able to connect with experienced women in my field to learn from their experiences and get advice on navigating my career. I would like the website to offer a mentorship program that matches me with a mentor who can provide guidance and support.
-    * End user goal:  
-    * Acceptance criteria: 
-    * Measurement of success:
  
 * As a woman aspiring to a leadership role in a technical field and user of the Fem Code website, I want to be able to access resources and guidance on career development, leadership skills, and overcoming gender bias. I would like the website to offer  articles, webinars and training courses tailored to women in tech.
-    * End user goal:  
-    * Acceptance criteria: 
-    * Measurement of success:
 
 <br>
 
@@ -68,10 +59,28 @@ Women working are often underrepresented in technical roles, particularly in lea
 ### Tech Stack
 ### Languages
 
+* HTML: HTML was used to create the basic architecture of our website.
+* CSS: We used CSS to style our HTML elements.
+* JavaScript: We used JavaScript to enhance the map functions.
+
+* Tools
+  * [Coolors](https://coolors.co/): Coolors was used to create the color palette
+  * [Google Fonts](https://fonts.google.com/): Google Fonts was used to select the fonts
+  * [Stack Overflow](https://stackoverflow.com/): Stack Overflow was used to improve CSS design.
+
+
 <br>
 
 ## Initial MVP Idea
 ### Actual idea & content
+
+#### Content
+The following website were used to create and develop content for Fem Code website.
+
+* [CIO](https://www.cio.com/article/215709/16-organizations-for-women-in-tech.html): Information taken to populate groups for women in tech
+* [Wired](https://www.wired.com/insights/2013/08/breaking-into-tech-5-tips-for-women/): Information taken to populate tips for women working in tech.
+* [Tech Target](https://www.techtarget.com/whatis/feature/Top-9-most-influential-women-in-technology): Information taken to populate top women in tech.
+
 ### Future Development
 
 <br>
