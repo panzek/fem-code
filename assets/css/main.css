@@ -70,6 +70,10 @@ p {
   z-index: 10000;
 }
 
+.margin-top-150 {
+  margin-top: 150px;
+}
+
 /* Navbar */
 .social-contact {
   background-color: rgb(38, 14, 248);
@@ -155,7 +159,8 @@ p {
 .involved,
 .break {
   text-align: center;
-  margin: 25px 0 40px 0;
+  margin: 55px 0 40px 0;
+  display: block;
 }
 
 .success {
@@ -240,6 +245,11 @@ p {
 }
 
 /* LEARN PAGE */
+
+.container-profile {
+  padding-top:175px;
+}
+
 .card {
   margin-bottom: 30px;
 }
@@ -311,7 +321,7 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 40vh;
+  height: auto;
   margin-top: 100px;
 }
 
@@ -361,4 +371,56 @@ p {
 
 .footer .social-contac li:hover {
   background: #3f5a52;
+}
+
+/* 404 Page  */
+
+.page-404 {
+  margin-top: 5%;
+}
+
+/* Start of media queries section*/
+
+/* Portrait */
+
+/* Screen sizes equal to or narrower 280px wide */
+@media screen and (max-width: 280px) 
+and (orientation: portrait) {
+
+  .page-404 {
+    margin-top: 6em;
+  }
+
+  .page-404-image {
+    margin-bottom: 5em;
+  }
+
+  .page-404-text-display {
+    display: none;
+  }
+
+  .btn.page-404-btn-display {
+    border: 1px solid var(--interactive-color);
+    margin-top: .8em;
+    padding: 5px;
+    font-size: .8rem;
+  }
+
+}
+
+/* Screen sizes equal to or narrower 540px wide */
+@media screen and (max-width: 540px) 
+and (orientation: portrait) {
+
+  .page-404 {
+    margin-top: 8em;
+  }
+
+  .page-404-image {
+    margin-bottom: 5em;
+  }
+
+  .page-404-text-display {
+    display: none;
+  }
 }
