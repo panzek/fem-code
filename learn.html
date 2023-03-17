@@ -1,244 +1,258 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- FONT-AWESOME -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-    <!-- BOOTSTRAP -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
-    <!-- CSS -->
-    <link rel="stylesheet" href="./assets/css/main.css" />
-    <title>Women in Tech</title>
-    <link rel="icon" type="image/x-icon" href="assets/images/site-favicon.png" />
-  </head>
-  <body>
-    <!-- NAVBAR -->
-    <div class="social-contact">
-      <ul class="position-fixed w-100 d-flex">
-        <li>
-          <a class="icon" href="">
-            <i class="fab fa-facebook-f"></i>
-          </a>
-        </li>
-        <li>
-          <a class="icon" href="">
-            <i class="fab fa-twitter"></i>
-          </a>
-        </li>
-        <li>
-          <a class="icon last-icon" href="">
-            <i class="fab fa-instagram"></i>
-          </a>
-        </li>
-      </ul>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- FONT-AWESOME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <!-- BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+  <!-- CSS -->
+  <link rel="stylesheet" href="./assets/css/main.css" />
+  <title>Women in Tech</title>
+  <link rel="icon" type="image/x-icon" href="assets/images/site-favicon.png" />
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <div class="social-contact">
+    <ul class="position-fixed w-100 d-flex">
+      <li><a class="icon interacti-color" target="_blank" href="https://www.facebook.com/"><i
+            class="fab fa-facebook-f"></i></a></li>
+      <li><a class="icon interacti-color" target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+      </li>
+      <li><a class="icon interacti-color" target="_blank" href="https://www.instagram.com/"><i
+            class="fab fa-instagram"></i></a></li>
+    </ul>
+  </div>
+  <nav class="navbar navbar-expand-lg position-fixed m-5">
+    <a class="navbar-brand" href="index.html"> <img class="logo" src="./assets/images/fewcode_logo_no_bg.png"
+        alt="FewCode Logo Image"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="index.html">Home</a>
+        <a class="nav-item nav-link" href="#">About</a>
+        <a class="nav-item nav-link" href="learn.html">Learn</a>
+        <a class="nav-item nav-link" href="development.html">Development</a>
+        <a class="nav-item nav-link" href="network.html">Network</a>
+        <a class="nav-item nav-link" href="contact.html">Contact</a>
+      </div>
     </div>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="index.html">
-        <img class="logo" src="./assets/images/fewcode_logo_no_bg.png" alt="FewCode Logo Image" />
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="index.html">Home</a>
-          <a class="nav-item nav-link" href="#">About</a>
-          <a class="nav-item nav-link" href="learn.html">Learn</a>
-          <a class="nav-item nav-link" href="development.html">Development</a>
-          <a class="nav-item nav-link" href="network.html">Network</a>
-          <a class="nav-item nav-link" href="contact.html">Contact</a>
-        </div>
-      </div>
-    </nav>
-    <!-- END OF NAVBAR -->
-    <!-- PROFILES SECTION -->
-    <div class="container">
-      <h1 class="text-center">Women in Tech Profiles</h1>
-      <div class="row">
-        <!-- Profile 1 -->
-        <div class="col-md-4">
-          <div class="card">
-            <img src="assets/images/mentor1.webp" class="card-img-top" alt="Profile 1" />
-            <div class="card-body">
-              <h5 class="card-title text-center">Sarah Brown</h5>
-              <p class="card-text">Software Engineer</p>
-              <p class="card-text"> Bachelor's in Computer Science, Stanford University </p>
-              <p class="card-text"> Sarah is a passionate software engineer with experience in developing web applications and mobile apps. She is an advocate for increasing diversity in tech and loves to mentor other women in the industry. Currently, she is working on developing a new healthcare app. </p>
-              <ul class="social-media">
-                <li>
-                  <a href="https://www.linkedin.com/" target="_blank">
-                    <i class="fab fa-linkedin"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://twitter.com/" target="_blank">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.instagram.com/" target="_blank">
-                    <i class="fab fa-instagram"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <!-- Profile 2 -->
-        <div class="col-md-4">
-          <div class="card">
-            <img src="assets/images/mentor2.webp" class="card-img-top" alt="Profile 2" />
-            <div class="card-body">
-              <h5 class="card-title text-center">Sophie Martin</h5>
-              <p class="card-text">Product Manager</p>
-              <p class="card-text">MBA, INSEAD Business School, France</p>
-              <p class="card-text"> Emily is a seasoned product manager with experience in developing software products for various industries. She is passionate about promoting women in leadership and loves to mentor other women looking to break into the tech industry. Currently, she is working on developing a new project management tool. </p>
-              <ul class="social-media">
-                <li>
-                  <a href="https://www.linkedin.com/" target="_blank">
-                    <i class="fab fa-linkedin"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://twitter.com/" target="_blank">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.instagram.com/" target="_blank">
-                    <i class="fab fa-instagram"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <!-- Profile 3 -->
-        <div class="col-md-4">
-          <div class="card">
-            <img src="assets/images/mentor3.webp" class="card-img-top" alt="Profile3" />
-            <div class="card-body">
-              <h5 class="card-title text-center">Karen Williams</h5>
-              <p class="card-text">Data Analyst</p>
-              <p class="card-text"> Master's in Statistics, University of California, Los Angeles </p>
-              <p class="card-text"> Karen is a data analyst with experience in analyzing large datasets to extract meaningful insights. She is passionate about using data to drive business decisions and loves to mentor other women interested in the field. Currently, she is working on developing a new analytics dashboard for a retail company. </p>
-              <ul class="social-media">
-                <li>
-                  <a href="https://www.linkedin.com/" target="_blank">
-                    <i class="fab fa-linkedin"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://twitter.com/" target="_blank">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="https://www.instagram.com/" target="_blank">
-                    <i class="fab fa-instagram"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
+  </nav>
+  <!-- END OF NAVBAR -->
+  <!-- PROFILES SECTION -->
+  <div class="container">
+    <h1 class="text-center">Women in Tech Profiles</h1>
+    <div class="row">
+      <!-- Profile 1 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="assets/images/mentor1.webp" class="card-img-top" alt="Profile 1" />
+          <div class="card-body">
+            <h5 class="card-title text-center">Sarah Brown</h5>
+            <p class="card-text">Software Engineer</p>
+            <p class="card-text"> Bachelor's in Computer Science, Stanford University </p>
+            <p class="card-text"> Sarah is a passionate software engineer with experience in developing web applications
+              and mobile apps. She is an advocate for increasing diversity in tech and loves to mentor other women in
+              the industry. Currently, she is working on developing a new healthcare app. </p>
+            <ul class="social-media">
+              <li>
+                <a href="https://www.linkedin.com/" target="_blank">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/" target="_blank">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/" target="_blank">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
-        <div class="row">
-          <!-- Profile 4 -->
-          <div class="col-md-4">
-            <div class="card">
-              <img src="assets/images/mentor4.webp" class="card-img-top" alt="Profile 4" />
-              <div class="card-body">
-                <h5 class="card-title text-center">Maya Davis</h5>
-                <p class="card-text">UX Designer</p>
-                <p class="card-text"> Bachelor's in Design, Rhode Island School of Design </p>
-                <p class="card-text"> Maya is a UX designer with experience in designing user-centered digital products. She is passionate about creating delightful user experiences and loves to mentor other women interested in the field. Currently, she is working on redesigning a travel booking app. </p>
-                <ul class="social-media">
-                  <li>
-                    <a href="https://www.linkedin.com/" target="_blank">
-                      <i class="fab fa-linkedin"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://twitter.com/" target="_blank">
-                      <i class="fab fa-twitter"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.instagram.com/" target="_blank">
-                      <i class="fab fa-instagram"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <!-- Profile 5 -->
-          <div class="col-md-4">
-            <div class="card">
-              <img src="assets/images/mentor5.webp" class="card-img-top" alt="Profile 5" />
-              <div class="card-body">
-                <h5 class="card-title text-center">Anna Kim</h5>
-                <p class="card-text">Cybersecurity Analyst</p>
-                <p class="card-text">Bachelor's in Computer Science, University of California, San Diego</p>
-                <p class="card-text"> Anna is a cybersecurity analyst with experience in identifying and mitigating security threats. She is passionate about protecting sensitive data and loves to mentor other women interested in the field. Currently, she is working on securing the infrastructure of a government agency. </p>
-                <ul class="social-media">
-                  <li>
-                    <a href="https://www.linkedin.com/" target="_blank">
-                      <i class="fab fa-linkedin"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://twitter.com/" target="_blank">
-                      <i class="fab fa-twitter"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.instagram.com/" target="_blank">
-                      <i class="fab fa-instagram"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <!-- Profile 6 -->
-          <div class="col-md-4">
-            <div class="card">
-              <img src="assets/images/mentor6.webp" class="card-img-top" alt="Profile6" />
-              <div class="card-body">
-                <h5 class="card-title text-center">Rachel Park</h5>
-                <p class="card-text">AI Researcher</p>
-                <p class="card-text"> PhD in Artificial Intelligence, University of Edinburgh, Scotland </p>
-                <p class="card-text"> Rachel is an AI researcher with experience in developing algorithms for natural language processing and computer vision. She is passionate about advancing the field of AI and loves to mentor other women interested in the field. Currently, she is working on developing a new chatbot for customer service. </p>
-                <ul class="social-media">
-                  <li>
-                    <a href="https://www.linkedin.com/" target="_blank">
-                      <i class="fab fa-linkedin"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://twitter.com/" target="_blank">
-                      <i class="fab fa-twitter"></i>
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.instagram.com/" target="_blank">
-                      <i class="fab fa-instagram"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
+      <!-- Profile 2 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="assets/images/mentor2.webp" class="card-img-top" alt="Profile 2" />
+          <div class="card-body">
+            <h5 class="card-title text-center">Sophie Martin</h5>
+            <p class="card-text">Product Manager</p>
+            <p class="card-text">MBA, INSEAD Business School, France</p>
+            <p class="card-text"> Emily is a seasoned product manager with experience in developing software products
+              for various industries. She is passionate about promoting women in leadership and loves to mentor other
+              women looking to break into the tech industry. Currently, she is working on developing a new project
+              management tool. </p>
+            <ul class="social-media">
+              <li>
+                <a href="https://www.linkedin.com/" target="_blank">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/" target="_blank">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/" target="_blank">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
-      <!-- END OF PROFILES SECTION -->
-      <!-- BOOTSTRAP JS -->
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-      <!-- MAIn JS -->
-      <script src="./assets/js/main.js"></script>
-  </body>
+      <!-- Profile 3 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="assets/images/mentor3.webp" class="card-img-top" alt="Profile3" />
+          <div class="card-body">
+            <h5 class="card-title text-center">Karen Williams</h5>
+            <p class="card-text">Data Analyst</p>
+            <p class="card-text"> Master's in Statistics, University of California, Los Angeles </p>
+            <p class="card-text"> Karen is a data analyst with experience in analyzing large datasets to extract
+              meaningful insights. She is passionate about using data to drive business decisions and loves to mentor
+              other women interested in the field. Currently, she is working on developing a new analytics dashboard for
+              a retail company. </p>
+            <ul class="social-media">
+              <li>
+                <a href="https://www.linkedin.com/" target="_blank">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/" target="_blank">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/" target="_blank">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <!-- Profile 4 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="assets/images/mentor4.webp" class="card-img-top" alt="Profile 4" />
+          <div class="card-body">
+            <h5 class="card-title text-center">Maya Davis</h5>
+            <p class="card-text">UX Designer</p>
+            <p class="card-text"> Bachelor's in Design, Rhode Island School of Design </p>
+            <p class="card-text"> Maya is a UX designer with experience in designing user-centered digital products. She
+              is passionate about creating delightful user experiences and loves to mentor other women interested in the
+              field. Currently, she is working on redesigning a travel booking app. </p>
+            <ul class="social-media">
+              <li>
+                <a href="https://www.linkedin.com/" target="_blank">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/" target="_blank">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/" target="_blank">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Profile 5 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="assets/images/mentor5.webp" class="card-img-top" alt="Profile 5" />
+          <div class="card-body">
+            <h5 class="card-title text-center">Anna Kim</h5>
+            <p class="card-text">Cybersecurity Analyst</p>
+            <p class="card-text">Bachelor's in Computer Science, University of California, San Diego</p>
+            <p class="card-text"> Anna is a cybersecurity analyst with experience in identifying and mitigating security
+              threats. She is passionate about protecting sensitive data and loves to mentor other women interested in
+              the field. Currently, she is working on securing the infrastructure of a government agency. </p>
+            <ul class="social-media">
+              <li>
+                <a href="https://www.linkedin.com/" target="_blank">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/" target="_blank">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/" target="_blank">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Profile 6 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="assets/images/mentor6.webp" class="card-img-top" alt="Profile6" />
+          <div class="card-body">
+            <h5 class="card-title text-center">Rachel Park</h5>
+            <p class="card-text">AI Researcher</p>
+            <p class="card-text"> PhD in Artificial Intelligence, University of Edinburgh, Scotland </p>
+            <p class="card-text"> Rachel is an AI researcher with experience in developing algorithms for natural
+              language processing and computer vision. She is passionate about advancing the field of AI and loves to
+              mentor other women interested in the field. Currently, she is working on developing a new chatbot for
+              customer service. </p>
+            <ul class="social-media">
+              <li>
+                <a href="https://www.linkedin.com/" target="_blank">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/" target="_blank">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/" target="_blank">
+                  <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- END OF PROFILES SECTION -->
+  <!-- BOOTSTRAP JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <!-- JQUERY -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <!-- MAIn JS -->
+  <script src="./assets/js/main.js"></script>
+</body>
+
 </html>
