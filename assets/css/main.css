@@ -27,18 +27,20 @@ img {
 
 .logo {
   width: 150px;
+  transition: all ease-in 0.3s;
+}
+
+.logo.active {
+  width: 110px;
 }
 
 ul {
   list-style: none;
 }
+
 a {
   text-decoration: none;
   color: var(--white-color);
-}
-a:hover{
-    text-decoration: none;
-    color: #e600b6;
 }
 
 .title {
@@ -69,7 +71,7 @@ p {
 
 /* Navbar */
 .social-contact {
-  background-color: rgb(0, 255, 255);
+  background-color: rgb(38, 14, 248);
   height: 50px;
   width: 100%;
   position: fixed;
@@ -86,15 +88,34 @@ p {
 }
 
 .navbar {
-  padding: 0 50px;
-  height: 100px;
-  color: transparent !important;
+  height: 120px;
   z-index: 100;
+  width: 100%;
+  padding: 20px 50px;
+  margin: 50px 0 !important;
 }
 
 .navbar .navbar-collapse,
 .social-contact ul {
   justify-content: end;
+}
+
+.navbar .nav-link {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.social-contact a.active,
+.navbar-nav a.active {
+  color: var(--white-color) !important;
+  transition: all ease-in 0.3s;
+}
+
+.navbar.active {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 90px;
+  transition: all ease-in 0.3s;
+  top: 0;
 }
 
 /* HERO SECTION */
@@ -129,60 +150,77 @@ p {
   height: 100%;
 }
 
-
 /* NETWORK PAGE */
-.involved, .break {
-    text-align: center;
-    margin: 25px 0 40px 0;
+.involved,
+.break {
+  text-align: center;
+  margin: 25px 0 40px 0;
+}
+
+.success {
+  color: #e600b6;
+  font-weight: 700;
+}
+
+.success a:hover {
+  /* color: #296c53; */
+  color: #0f916a;
+}
+
+.success-stories {
+  font-size: 20px;
+  color: black;
+  font-style: italic;
+  font-weight: 350;
 }
 
 /* DEVELOPMENT PAGE */
 .develop-container {
-    display: flex;
-    flex-direction: row;
-  }
+  display: flex;
+  flex-direction: row;
+}
 
 .develop {
-    text-align: center;
+  text-align: center;
 }
-  
-  .card {
-    border: 1px solid #dadada;
-    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.2s;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    margin: 0 25px 0 25px;
-  }
-  
-  .card h3 {
-    padding: 2px;
-    margin: 8px 0;
-  }
-  
-  .card:hover {
-    box-shadow: 8px 8px 16px 0 rgba(0, 0, 0, 0.2);
-  }
-  
-  .card .container {
-    padding: 2px 14px;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .card h4 {
-    margin-top: auto;
-  }
-  
-  .card p {
-    margin: 14px 0;
-  }
 
-/* GOOGLE MAP */
-div#map {
-  min-height: 360px;
+.card {
+  border: 1px solid #dadada;
+  box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.2s;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 25px 0 25px;
+}
+
+.card h3 {
+  padding: 2px;
+  margin: 8px 0;
+}
+
+.card:hover {
+  box-shadow: 8px 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card .container {
+  padding: 2px 14px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.card h4 {
+  margin-top: auto;
+}
+
+.card p {
+  margin: 14px 0;
+}
+
+.develop-links:hover {
+  color: #e600b6;
+  text-decoration: underline;
 }
 
 /* LEARN PAGE */
@@ -225,7 +263,7 @@ div#map {
 }
 
 .social-media li a:hover {
-    color: #a072a0;
+  color: #a072a0;
 }
 
 /* CONTACT PAGE */
@@ -242,6 +280,7 @@ div#map {
 }
 
 .btn-green {
+
   background-color: #005B40;
 }
 
@@ -304,3 +343,7 @@ div#map {
 .footer .social-contac li:hover {
   background: #3f5a52;
 }
+
+  background-color: #005b40;
+}
+
