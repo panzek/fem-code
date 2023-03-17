@@ -227,3 +227,21 @@ div#map {
 .social-media li a:hover {
     color: #a072a0;
 }
+
+/* CONTACT PAGE */
+
+#message {
+  height: 120px;
+}
+
+.black-text {
+  color: black;
+}
+
+.pink-text {
+  color: #e700b7;
+}
+
+.btn-green {
+  background-color: #005B40;
+}
