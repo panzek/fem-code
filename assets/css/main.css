@@ -159,6 +159,23 @@ p {
     margin: 25px 0 40px 0;
 }
 
+.success {
+    color: #e600b6;
+    font-weight: 700;
+}
+
+.success a:hover {
+    /* color: #296c53; */
+    color: #0f916a;
+}
+
+.success-stories {
+    font-size: 20px;
+    color: black;
+    font-style: italic;
+    font-weight: 350;
+}
+
 /* DEVELOPMENT PAGE */
 .develop-container {
     display: flex;
@@ -203,10 +220,10 @@ p {
     margin: 14px 0;
   }
 
-/* GOOGLE MAP */
-div#map {
-  min-height: 360px;
-}
+  .develop-links:hover {
+    color: #e600b6;
+    text-decoration: underline;
+  }
 
 /* LEARN PAGE */
 
