@@ -8,6 +8,8 @@ March 2023 Women in Tech hackathon.
 
 Women working are often underrepresented in technical roles, particularly in leadership positions. This can create a culture where women feel isolated and excluded, and may not have role models or mentors to support their career development.
 
+[Live preview for the site](https://panzek.github.io/fem-code/)
+
 <br>
 
 ## Table of Contents
