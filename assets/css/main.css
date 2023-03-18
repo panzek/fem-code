@@ -15,7 +15,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #f1f5f8;
+  background-color: #a072a0;
 }
 
 .interactive-color {
@@ -319,6 +319,15 @@ p {
 }
 
 /*ABOUT US PAGE */
+
+.about-section {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(160, 114, 160);
+  height: 100%;
+
+}
+
 .about-section-img {
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), #a072a0),
     url("../images/about_us.jpg");
@@ -351,8 +360,8 @@ p {
   height: 200px;
   width: 200px;
   border-style: solid;
-  border-color: black;
-  border-width: 2px;
+  border-color: white;
+  border-width: 3px;
   border-radius: 50%;
   margin-left: 20px;
 }
@@ -365,6 +374,58 @@ p {
   border-radius: 50%;
   overflow: hidden;
 }
+
+.peter-image {
+  background: url('../images/peter-image.jpg') no-repeat center center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+
+}
+
+.pedro-image {
+  background: url('../images/pedro-image.jpg') no-repeat center center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.hash-image {
+  background: url('../images/hash-image.jpg') no-repeat center center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.carmen-image {
+  background: url('../images/carmen-image.jpg') no-repeat center center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.kayla-image {
+  background: url('../images/kayla-image.jpg') no-repeat center center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+
+
+
+
+
 
 /* 404 Page  */
 .page-404 {
@@ -474,6 +535,7 @@ p {
 .page-404 {
   margin-top: 5%;
 }
+
 /* Start of media queries section*/
 /* Portrait */
 
