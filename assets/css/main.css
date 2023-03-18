@@ -364,6 +364,7 @@ p {
   border-width: 3px;
   border-radius: 50%;
   margin-left: 20px;
+  position: relative;
 }
 
 .kyle-image {
@@ -421,6 +422,39 @@ p {
   overflow: hidden;
 }
 
+
+.kyle-image:hover,
+.kayla-image:hover,
+.peter-image:hover,
+.pedro-image:hover,
+.hash-image:hover,
+.carmen-image:hover,
+.chris-image:hover
+ {
+  opacity: 0.5;
+  transition: opacity 0.5s;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  background-color: #a072a0;
+ 
+}
+
+.profile-image-container:hover .text-overlay {
+  opacity: 1;
+}
+
+.text-overlay p {
+  color: black;
+  font-size: 24px;
+  text-align: center;
+  margin: 0;
+}
 
 
 
