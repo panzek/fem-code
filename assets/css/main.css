@@ -256,6 +256,9 @@ p {
 
 .card {
   margin-bottom: 30px;
+  height: 100%;
+  width:100%;
+  margin-bottom: 20px;
 }
 
 .card-img-top {
@@ -295,6 +298,9 @@ p {
 .social-media li a:hover {
   color: #a072a0;
 }
+
+ 
+
 
 /* CONTACT PAGE */
 
