@@ -97,7 +97,7 @@ p {
   z-index: 100;
   width: 100%;
   padding: 20px 50px;
-  margin: 50px 0 !important;
+  margin: 0px 0px !important;
   top: 0;
   background-image: linear-gradient(#ffc0cb, #00000099);
   --bs-navbar-brand-padding-y: 0.6rem;
@@ -168,6 +168,11 @@ p {
 }
 
 /* NETWORK PAGE */
+
+.network-container {
+  margin-top: 130px;
+}
+
 .involved,
 .break {
   text-align: center;
@@ -284,7 +289,6 @@ p {
   flex-direction: column;
   align-items: center;
   padding: 50px;
- 
 }
 
 iframe {
@@ -300,7 +304,7 @@ iframe {
 .card {
   margin-bottom: 30px;
   height: 100%;
-  width:100%;
+  width: 100%;
   margin-bottom: 20px;
 }
 
@@ -316,34 +320,6 @@ iframe {
 .card-text {
   color: black;
 }
-
-.social-media {
-  margin-top: 10px;
-  padding: 0;
-  list-style-type: none;
-  text-align: center;
-}
-
-.social-media li {
-  display: inline-block;
-  margin-right: 10px;
-}
-
-.social-media li:last-child {
-  margin-right: 0;
-}
-
-.social-media li a {
-  color: var(--interactive-color);
-  font-size: 20px;
-}
-
-.social-media li a:hover {
-  color: #a072a0;
-}
-
- 
-
 
 /* CONTACT PAGE */
 
@@ -374,7 +350,6 @@ iframe {
   flex-wrap: wrap;
   background-color: rgb(160, 114, 160);
   height: 100%;
-
 }
 
 .about-section-img {
@@ -426,17 +401,16 @@ iframe {
 }
 
 .peter-image {
-  background: url('../images/peter-image.jpg') no-repeat center center;
+  background: url("../images/peter-image.jpg") no-repeat center center;
   background-size: cover;
   height: 100%;
   width: 100%;
   border-radius: 50%;
   overflow: hidden;
-
 }
 
 .pedro-image {
-  background: url('../images/pedro-image.jpg') no-repeat center center;
+  background: url("../images/pedro-image.jpg") no-repeat center center;
   background-size: cover;
   height: 100%;
   width: 100%;
@@ -445,7 +419,7 @@ iframe {
 }
 
 .hash-image {
-  background: url('../images/hash-image.jpg') no-repeat center center;
+  background: url("../images/hash-image.jpg") no-repeat center center;
   background-size: cover;
   height: 100%;
   width: 100%;
@@ -454,7 +428,7 @@ iframe {
 }
 
 .carmen-image {
-  background: url('../images/carmen-image.jpg') no-repeat center center;
+  background: url("../images/carmen-image.jpg") no-repeat center center;
   background-size: cover;
   height: 100%;
   width: 100%;
@@ -463,7 +437,7 @@ iframe {
 }
 
 .kayla-image {
-  background: url('../images/kayla-image.jpg') no-repeat center center;
+  background: url("../images/kayla-image.jpg") no-repeat center center;
   background-size: cover;
   height: 100%;
   width: 100%;
@@ -471,15 +445,13 @@ iframe {
   overflow: hidden;
 }
 
-
 .kyle-image:hover,
 .kayla-image:hover,
 .peter-image:hover,
 .pedro-image:hover,
 .hash-image:hover,
 .carmen-image:hover,
-.chris-image:hover
- {
+.chris-image:hover {
   opacity: 0.5;
   transition: opacity 0.5s;
 }
@@ -491,7 +463,6 @@ iframe {
   transform: translate(-50%, -50%);
   opacity: 0;
   background-color: #a072a0;
- 
 }
 
 .profile-image-container:hover .text-overlay {
@@ -504,11 +475,6 @@ iframe {
   text-align: center;
   margin: 0;
 }
-
-
-
-
-
 
 /* 404 Page  */
 .page-404 {
@@ -597,22 +563,18 @@ iframe {
   height: 5px;
 }
 
-.footer .social-contact ul {
-  margin-left: -29px;
-}
-
-.footer .social-contact li {
-  background: #1b2925;
-  width: 150px;
-  margin-right: 5px;
+.social-media > a > i {
+  background-color: #e600b6;
+  padding: 5px;
+  border-radius: 5px;
+  color: #ffffff;
+  width: 30px;
   text-align: center;
-  padding: 8px;
-  width: 40px;
-  cursor: pointer;
 }
 
-.footer .social-contact li:hover {
-  background: #3f5a52;
+.social-media > a > i:hover {
+  background-color: #ffffff;
+  color: #e600b6;
 }
 
 .page-404 {
