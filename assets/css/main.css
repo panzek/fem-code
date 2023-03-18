@@ -103,6 +103,22 @@ p {
   --bs-navbar-brand-padding-y: 0.6rem;
 }
 
+.activeLinks {
+  border-bottom: 2px solid var(--interactive-color);
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+  font-weight: bolder;
+  font-size: 160%;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+  border-bottom: 2px solid #a072a0;
+  color: rgba(0, 0, 0, 0.556);
+}
+
 .navbar .navbar-collapse,
 .social-contact ul {
   justify-content: end;
