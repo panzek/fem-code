@@ -17,7 +17,15 @@ document.addEventListener('DOMContentLoaded', function() {
         let subject = document.getElementById('subject').value;
         console.log(subject)
         let message = document.getElementById('message').value;
-        console.log(message)     
+
+        // validate data 
+
+        // Display success message in UI 
+        response = document.getElementById('response');
+        response.innerHTML = 
+            `Hey ${name}, thank you for contacting us. We'll respond to your mail as soon as possible.`;
+
+        response.style.color = 'green'
 
     }
 
