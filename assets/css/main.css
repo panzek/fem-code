@@ -445,6 +445,15 @@ iframe {
   overflow: hidden;
 }
 
+.chris-image {
+  background: url("../images/chris-image.jpg") no-repeat center center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
 .kyle-image:hover,
 .kayla-image:hover,
 .peter-image:hover,

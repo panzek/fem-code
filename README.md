@@ -10,6 +10,8 @@ Women working are often underrepresented in technical roles, particularly in lea
 
 [Live preview for the site](https://panzek.github.io/fem-code/)
 
+![Am I Responsive](assets/images/am-i-responsive.png)
+
 <br>
 
 ## Table of Contents
@@ -75,10 +77,11 @@ Women working are often underrepresented in technical roles, particularly in lea
 * JavaScript: We used JavaScript to enhance the map functions.
 
 * Tools
-  * [Coolors](https://coolors.co/): Coolors was used to create the color palette
-  * [Google Fonts](https://fonts.google.com/): Google Fonts was used to select the fonts
+  * [Coolors](https://coolors.co/): Coolors was used to create the color palette.
+  * [Google Fonts](https://fonts.google.com/): Google Fonts was used to select the fonts.
   * [Stack Overflow](https://stackoverflow.com/): Stack Overflow was used to improve CSS design.
-  * [Canva](https://www.canva.com/): used to create the favicon
+  * [Canva](https://www.canva.com/): Used to create the favicon.
+  * [Am I Responsive](https://ui.dev/amiresponsive): Used to test website responsiveness.
 
 
 <br>
@@ -101,14 +104,16 @@ The following website were used to create and develop content for Fem Code websi
 ### Color Scheme
 The colour palette uses colours from the FemCode logo.
 
-- #E600B6
-- #00FFFF
-- #E700B7 
 - #000000
+- #E600B6
 - #A072A0
-- #005B40
+- #FFC0CB
+- #0F916A
+- #E9ECEF
+- #DADADA
+- #FFFFFF
 
-![Color Palette](assets/images/color-scheme.png)
+![Color Palette](assets/images/color-palate.png)
 
 ### Typography
 Roboto and Sans Serrif were identified as suitable fonts to be used on the website​
@@ -121,6 +126,32 @@ Roboto and Sans Serrif were identified as suitable fonts to be used on the websi
 [Canva](https://www.canva.com/), [Photopea](https://www.photopea.com/), [Pixlr](https://pixlr.com/)  was used to create the Fem Code Logo
 
 ### Wireframes
+
+Desktop and mobile wireframes
+
+* Landing Page
+
+Desktop                 |  Mobile                                 
+:----------------------:|:----------------------:|
+![](assets/images/landing_wrfrm_desktop.png)   |  ![](assets/images/landing_wrfrm_mobile.png)
+
+* Learn Page
+
+Desktop                 |  Mobile                                 
+:----------------------:|:----------------------:|
+![](assets/images/learn_wrfrm_desktop.png)   |  ![](assets/images/learn_wrfrm_mobile.png)
+
+* Develop Page
+
+Desktop                 |  Mobile                                 
+:----------------------:|:----------------------:|
+![](assets/images/develop_wrfrm_desktop.png)   |  ![](assets/images/develop_wrfrm_mobile.png)
+
+* Network Page
+
+Desktop                 |  Mobile                                 
+:----------------------:|:----------------------:|
+![](assets/images/network_wrfrm_desktop.png)   |  ![](assets/images/network_wrfrm_mobile.png)
 
 <br>
 
@@ -156,11 +187,63 @@ To clone the repository:
 
 ## Testing
 
+* Navbar: All the links on the navbar are working.
+  * I clicked on the logo and it took me to the index.html page
+  * I clicked on Home and it took me to the index.html page
+  * I clicked on About and it took me to the about.html page
+  * I clicked on Learn and it took me to the learn.html page
+  * I clicked on Development and it took me to the development.html page
+  * I clicked on Network and it took me to the network.html page
+   * I clicked on Contact and it took me to the contact.html page
+![Navbar](assets/images/nav-bar.png)
+
+<br>
+
+* Footer: All the links on the footer are working.
+  * I clicked on the link of each social media icon and a new tab with the correct social media site opened.
+  ![Footer](assets/images/footer.png)
+
+  <br>
+
+* Home: All the card cateogries and links are working.
+  * I clicked on the "Discover More" button and the page moved to the three cards below the hero image. 
+  * I clicked on the "Learn" card and it took me the learn.html page.
+  * I clicked on the "Develop" card and it took me the develop.html page.
+  * I clicked on the "Newtwork" card and it took me the network.html page.
+![Index](assets/images/card-button-homepage.png)
+
+<br>
+
+* About: All the images are working. When I hover the mouse on the images, the developer name appears and a clickable link to the respective github page. 
+
+<br>
+
+* Learn: All the social media links are working. No effect when hovering, but when clicked the respective social media website is opened in a new tab.
+
+<br>
+
+* Development: Both dropdown menu links are working When clicked the specific section expands and when clicked again collapses. In the tech organisations for women box, all the respective link are working and when clicked open a new tab with the correct corresponding webpage.
+
+<br>
+
+* Network: All the images are working. The map is interactive and functioning. The links for each successful women card is working and when clicked opens to a new tab to the correct correspodning website. When hovering over social media icons the color changes and when clicked they open to the correct corresponding social media accounts. 
+
+<br>
+
+* Contact: 
+
+<br>
+
+* 404: When I try to access a page that does not exist, the 404.html page is showed.
+![404 Page](docs/404.JPG)
+
 <br>
 
 ## Credits
 ### Content
+
 ### Media
+
 ### Acknowledgements
 Thanks to the Code Institute's hackteam for another great hackathon.
 
