@@ -263,6 +263,19 @@ p {
   border-radius: 50%;
 }
 
+.videos {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+ 
+}
+
+iframe {
+  margin-bottom: 50px;
+}
+
 /* LEARN PAGE */
 
 .container-profile {
