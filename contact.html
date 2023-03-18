@@ -56,19 +56,23 @@
                 a matter of hours to help you.</p>
             <div class="row">
                 <div class="col-md-9 mb-md-0 mb-5">
+                    <div id="response">
+                        <!-- Response on successful form submission -->
+                        Thank You!
+                    </div>
                     <form id="contact-form" name="contact-form" action="" method="">
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-floating mb-3">
-                                    <input type="name" class="form-control" id="floatingName" placeholder="Name">
-                                    <label for="floatingName">Name</label>
+                                    <input type="name" class="form-control" id="name" placeholder="Name" required>
+                                    <label for="name">Name</label>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-floating mb-3">
-                                    <input type="email" id="floatingInput" name="email" class="form-control"
-                                        placeholder="Your email">
-                                    <label for="floatingInput" class="">Your email</label>
+                                    <input type="email" id="email" name="email" class="form-control"
+                                        placeholder="Your email" required>
+                                    <label for="email" class="">Your email</label>
                                 </div>
                             </div>
                         </div>
@@ -76,7 +80,7 @@
                             <div class="col-md-12">
                                 <div class="form-floating mb-3">
                                     <input type="text" id="subject" name="subject" class="form-control"
-                                        placeholder="Subject">
+                                        placeholder="Subject" required>
                                     <label for="subject" class="">Subject</label>
                                 </div>
                             </div>
@@ -85,16 +89,15 @@
                             <div class="col-md-12">
                                 <div class="form-floating mb-3">
                                     <textarea type="text" id="message" name="message" rows="4"
-                                        class="form-control md-textarea" placeholder="Your message"></textarea>
+                                        class="form-control md-textarea" placeholder="Your message" required></textarea>
                                     <label for="message">Your message</label>
                                 </div>
                             </div>
                         </div>
+                        <div class="text-center text-md-left">
+                            <input type="submit" class="btn btn-green" value="Send">
+                        </div>
                     </form>
-
-                    <div class="text-center text-md-left">
-                        <a class="btn btn-green" onclick="document.getElementById('contact-form').submit();">Send</a>
-                    </div>
                     <div class="status"></div>
                 </div>
                 <div class="col-md-3 text-center">
@@ -125,7 +128,7 @@
                     </p>
                 </div>
                 <div class="col-md-4">
-                    <h3>Scshedule</h3>
+                    <h3>Schedule</h3>
                     <p><i class="far fa-calendar"></i>From Monday to Friday</p>
                     <p><i class="fas fa-clock"></i>9.30AM - 6PM</p>
                 </div>
@@ -164,6 +167,9 @@
 
     <!-- MAIN JS -->
     <script src="./assets/js/main.js"></script>
+
+    <!-- Contact JS  -->
+    <script src="./assets/js/contact.js"></script>
 </body>
 
 </html>
