@@ -220,6 +220,15 @@ p {
   margin: 14px 0;
 }
 
+/* DEVELOPMENT PAGE */
+
+.development-container {
+  border: 1px solid #dadada;
+  box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.2s;
+  background-color: #ffffff;
+}
+
 .develop-links,
 .accordion-body a {
   color: #e600b6;
@@ -237,12 +246,6 @@ p {
 .accordion-button::after {
   background-color: var(--white-color);
   border-radius: 50%;
-}
-
-.development-container {
-  border: 1px solid #dadada;
-  box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
-  transition: 0.2s;
 }
 
 /* LEARN PAGE */
@@ -316,9 +319,9 @@ p {
 }
 
 /*ABOUT US PAGE */
-  .about-section-img {
+.about-section-img {
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), #a072a0),
-    url('../images/about_us.jpg');
+    url("../images/about_us.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -346,22 +349,21 @@ p {
 
 .profile-image-container {
   height: 200px;
-    width: 200px;
-    border-style: solid;
-    border-color: black;
-    border-width: 2px;
-    border-radius: 50%;
-    margin-left: 20px;
+  width: 200px;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  border-radius: 50%;
+  margin-left: 20px;
 }
 
 .kyle-image {
-  background: url('../images/kyle-image.jpg') no-repeat center center;
+  background: url("../images/kyle-image.jpg") no-repeat center center;
   background-size: cover;
   height: 100%;
   width: 100%;
   border-radius: 50%;
   overflow: hidden;
- 
 }
 
 /* 404 Page  */
@@ -388,16 +390,14 @@ p {
 
   .btn.page-404-btn-display {
     border: 1px solid var(--interactive-color);
-    margin-top: .8em;
+    margin-top: 0.8em;
     padding: 5px;
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
-
 }
 
 /* Screen sizes equal to or narrower 540px wide */
 @media screen and (max-width: 540px) and (orientation: portrait) {
-
   .page-404 {
     margin-top: 8em;
   }
@@ -470,7 +470,7 @@ p {
 .footer .social-contac li:hover {
   background: #3f5a52;
 }
- 
+
 .page-404 {
   margin-top: 5%;
 }
@@ -478,9 +478,7 @@ p {
 /* Portrait */
 
 /* Screen sizes equal to or narrower 280px wide */
-@media screen and (max-width: 280px) 
-and (orientation: portrait) {
-
+@media screen and (max-width: 280px) and (orientation: portrait) {
   .page-404 {
     margin-top: 6em;
   }
@@ -495,17 +493,14 @@ and (orientation: portrait) {
 
   .btn.page-404-btn-display {
     border: 1px solid var(--interactive-color);
-    margin-top: .8em;
+    margin-top: 0.8em;
     padding: 5px;
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
-
 }
 
 /* Screen sizes equal to or narrower 540px wide */
-@media screen and (max-width: 540px) 
-and (orientation: portrait) {
-
+@media screen and (max-width: 540px) and (orientation: portrait) {
   .page-404 {
     margin-top: 8em;
   }
