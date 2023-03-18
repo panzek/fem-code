@@ -315,6 +315,10 @@ p {
   background-color: #005b40;
 }
 
+.form-floating span {
+  font-size: .9rem;
+}
+
 /*ABOUT US PAGE */
   .about-section-img {
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), #a072a0),
