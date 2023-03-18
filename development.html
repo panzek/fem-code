@@ -13,48 +13,53 @@
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <!-- CSS -->
     <link rel="stylesheet" href="./assets/css/main.css">
-    <title>FEWCODE</title>
+    <title>FemCode</title>
     <link rel="icon" type="image/x-icon" href="assets/images/site-favicon.png">
 </head>
 
 <body>
     <!-- NAVBAR -->
-    <div class="social-contact">
-        <ul class="position-fixed w-100 d-flex">
-            <li><a class="icon interactive-color" target="_blank" href="https://www.facebook.com/"><i
-                        class="fab fa-facebook-f"></i></a></li>
-            <li><a class="icon interactive-color" target="_blank" href="https://twitter.com/"><i
-                        class="fab fa-twitter"></i></a></li>
-            <li><a class="icon interactive-color" target="_blank" href="https://www.instagram.com/"><i
-                        class="fab fa-instagram"></i></a></li>
-        </ul>
-    </div>
     <nav class="navbar navbar-expand-lg position-fixed m-5">
-        <a class="navbar-brand" href="index.html"> <img class="logo" src="./assets/images/fewcode_logo_no_bg.png"
-                alt="FewCode Logo Image"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link" href="index.html">Home</a>
-                <a class="nav-item nav-link" href="about.html">About</a>
-                <a class="nav-item nav-link" href="learn.html">Learn</a>
-                <a class="nav-item nav-link" href="development.html">Development</a>
-                <a class="nav-item nav-link" href="network.html">Network</a>
-                <a class="nav-item nav-link" href="contact.html">Contact</a>
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"> <img class="logo" src="./assets/images/fewcode_logo_no_bg.png"
+                    alt="FemCode Logo Image"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav text-center">
+                    <li class="nav-item">
+                        <a class="nav-item nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item nav-link" href="learn.html">Learn</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item nav-link" href="development.html">Development</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item nav-link" href="network.html">Network</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </nav>
     <!-- END OF NAVBAR -->
 
     <!-- START OF DEVELOP SECTION -->
-    <h1 class="break">How do I break into tech?</h1>
-
-    <div class="container">
+    <div class="container development-container">
         <div class="row">
-            <div class="col-12 col-md-5 p-3 development-container">
+            <h1 class="break">How do I break into tech?</h1>
+        </div>
+        <div class="row">
+            <div class="col-12 col-lg-5 p-3 development-col-container">
                 <div class="container">
                     <h4 class="develop">Tech organizations for women</h4>
                     <div class="accordion accordion-flush" id="accordionFlushExample">
@@ -192,7 +197,7 @@
                 </div>
             </div>
 
-            <div class="col-12 col-md-5 p-3 mt-3 mt-md-0 offset-md-2 development-container">
+            <div class="col-12 col-lg-5 p-3 mt-3 mt-lg-0 offset-lg-2 development-col-container">
                 <div class="container">
                     <h4 class="develop">Tips to make yourself heard!</h4>
 
@@ -362,6 +367,24 @@
         </div>
     </div>
     <!-- END OF DEVELOP SECTION -->
+    <br>
+
+
+    <section class="videos">
+        <h2> <u>Videos to inspire your career</u> </h2>
+        <br>
+
+        <iframe width="80%" height="315" src="https://www.youtube.com/embed/8VZTtRX4HIk" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+
+        <iframe width="80%" height="315" src="https://www.youtube.com/embed/w94uiz3hMk0" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+
+    </section>
 
     <!-- FOOTER -->
     <footer class="footer p-3">
@@ -374,7 +397,7 @@
                     </p>
                 </div>
                 <div class="col-md-4">
-                    <h3>Shedule</h3>
+                    <h3>Schedule</h3>
                     <p><i class="far fa-calendar"></i>From Monday to Friday</p>
                     <p><i class="fas fa-clock"></i>9.30AM - 6PM</p>
                 </div>
@@ -382,24 +405,31 @@
                     <h3>Contact</h3>
                     <p><i class="fas fa-phone"></i>+ 01 234 567 89</p>
                     <p><i class="far fa-envelope"></i>contact@femcode.com</p>
-                    <p><i class="fas fa-home"></i>58-87 Dublin - 4 <br>
-                        <div class="social-contac">
-                            <ul class="d-flex">
-                                <li><a class="icon interactive-color" target="_blank"
-                                        href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a class="icon interactive-color" target="_blank" href="https://twitter.com/"><i
-                                            class="fab fa-twitter"></i></a></li>
-                                <li><a class="icon interactive-color" target="_blank"
-                                        href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a></li>
-                            </ul>
-                        </div>
+                    <p><i class="fas fa-home"></i>58-87 Dublin - 4</p> <br>
                 </div>
             </div>
             <hr>
-        </div>
-        <div class="copyright-box">
-            <p><i class="far fa-copyright"></i>FemCode | All rights reserved | 2023</i></p>
-        </div>
+            <section class="d-flex justify-content-center justify-content-lg-between p-4">
+                <div class="me-5 d-none d-lg-block">
+                    <span><i class="far fa-copyright"></i><span class="text-light">FemCode | All rights reserved |
+                            2023</span></span>
+                </div>
+
+                <div class="social-media">
+                    <a target="_blank" href="https://www.facebook.com/" class="me-4">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a target="_blank" href="https://twitter.com/" class="me-4">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a target="_blank" href="https://www.instagram.com/" class="me-4">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a target="_blank" href="https://www.linkedin.com/feed/" class="me-4">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </section>
         </div>
     </footer>
     <!-- END OF FOOTER -->
