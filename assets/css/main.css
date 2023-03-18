@@ -15,7 +15,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #f1f5f8;
+  background-color: #a072a0;
 }
 
 .interactive-color {
@@ -76,7 +76,7 @@ p {
 
 /* Navbar */
 .social-contact {
-  background-color: rgb(38, 14, 248);
+  background-color: black;
   height: 50px;
   width: 100%;
   position: fixed;
@@ -271,6 +271,9 @@ p {
 
 .card {
   margin-bottom: 30px;
+  height: 100%;
+  width:100%;
+  margin-bottom: 20px;
 }
 
 .card-img-top {
@@ -311,6 +314,9 @@ p {
   color: #a072a0;
 }
 
+ 
+
+
 /* CONTACT PAGE */
 
 .form-section {
@@ -334,6 +340,15 @@ p {
 }
 
 /*ABOUT US PAGE */
+
+.about-section {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(160, 114, 160);
+  height: 100%;
+
+}
+
 .about-section-img {
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), #a072a0),
     url("../images/about_us.jpg");
@@ -366,10 +381,11 @@ p {
   height: 200px;
   width: 200px;
   border-style: solid;
-  border-color: black;
-  border-width: 2px;
+  border-color: white;
+  border-width: 3px;
   border-radius: 50%;
   margin-left: 20px;
+  position: relative;
 }
 
 .kyle-image {
@@ -380,6 +396,91 @@ p {
   border-radius: 50%;
   overflow: hidden;
 }
+
+.peter-image {
+  background: url('../images/peter-image.jpg') no-repeat center center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+
+}
+
+.pedro-image {
+  background: url('../images/pedro-image.jpg') no-repeat center center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.hash-image {
+  background: url('../images/hash-image.jpg') no-repeat center center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.carmen-image {
+  background: url('../images/carmen-image.jpg') no-repeat center center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.kayla-image {
+  background: url('../images/kayla-image.jpg') no-repeat center center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+
+.kyle-image:hover,
+.kayla-image:hover,
+.peter-image:hover,
+.pedro-image:hover,
+.hash-image:hover,
+.carmen-image:hover,
+.chris-image:hover
+ {
+  opacity: 0.5;
+  transition: opacity 0.5s;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  background-color: #a072a0;
+ 
+}
+
+.profile-image-container:hover .text-overlay {
+  opacity: 1;
+}
+
+.text-overlay p {
+  color: black;
+  font-size: 24px;
+  text-align: center;
+  margin: 0;
+}
+
+
+
+
+
 
 /* 404 Page  */
 .page-404 {
@@ -489,6 +590,7 @@ p {
 .page-404 {
   margin-top: 5%;
 }
+
 /* Start of media queries section*/
 /* Portrait */
 
