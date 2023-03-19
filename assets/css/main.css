@@ -206,7 +206,6 @@ p {
   width: 100%;
   display: flex;
   flex-direction: column;
-  margin: 0 25px 0 25px;
 }
 
 .success {
@@ -217,8 +216,19 @@ p {
 .success a:hover,
 .accordion-body a:hover,
 .develop-links:hover,
-.network-links:hover {
+.network-links:hover,
+.socials a:hover {
   color: #0f916a;
+}
+
+.socials {
+  text-align: center;
+  font-size: 25px;
+}
+
+.socials span a, 
+.success span a {
+  padding: 3px;
 }
 
 .success-stories {
@@ -592,7 +602,7 @@ iframe {
   height: 5px;
 }
 
-.social-media > a > i {
+/* .social-media > a > i {
   background-color: #e600b6;
   padding: 5px;
   border-radius: 5px;
@@ -604,7 +614,7 @@ iframe {
 .social-media > a > i:hover {
   background-color: #ffffff;
   color: #e600b6;
-}
+} */
 
 .page-404 {
   margin-top: 5%;
