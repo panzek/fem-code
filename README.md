@@ -16,31 +16,40 @@ Women working are often underrepresented in technical roles, particularly in lea
 
 ## Table of Contents
 ​
-* [Introduction](#introduction)
-* [User Experience](#user-experience)
-    * [User stories](#user-stories)
-* [Technology](#technology)
-  * [Tech Stack](#tech-stack)
-  * [Languages](#languages)
-* [Initial MVP Idea](#initial-mvp-idea)
-  * [Actual idea & content](#actual-idea--content)
-  * [Future Development](#future-development)
-* [Design](#design)
-  * [Color Scheme](#color-scheme)
-  * [Typography](#typography)
-  * [Imagery](#imagery)
-    * [Logo](#logo)
-  * [Wireframes](#wireframes)
-* [Deployment & Usage](#deployment--usage)
-  * [Remote Deployment](#remote-deployment)
-  * [How To Fork](#how-to-fork)
-  * [How To Clone](#how-to-clone)
-* [Testing](#testing)
-* [Credits](#credits)
-  * [Content](#content)
-  * [Media](#media)
-  * [Acknowledgements](#acknowledgements)
-<br>
+- [Introduction](#introduction)
+- [Table of Contents](#table-of-contents)
+- [User Experience](#user-experience)
+  - [User stories](#user-stories)
+- [Technology](#technology)
+  - [Tech Stack](#tech-stack)
+  - [Languages](#languages)
+- [Initial MVP Idea](#initial-mvp-idea)
+  - [Actual idea \& content](#actual-idea--content)
+    - [Content](#content)
+  - [Future Development](#future-development)
+- [Design](#design)
+  - [Color Scheme](#color-scheme)
+  - [Typography](#typography)
+  - [Imagery](#imagery)
+    - [Logo](#logo)
+  - [Wireframes](#wireframes)
+- [Deployment \& Usage](#deployment--usage)
+  - [Remote Deployment](#remote-deployment)
+  - [How To Fork](#how-to-fork)
+  - [How To Clone](#how-to-clone)
+- [Testing](#testing)
+  - [Accessibility Testing](#accessibility-testing)
+    - [Contact page](#contact-page)
+    - [About Us page](#about-us-page)
+    - [Learn page](#learn-page)
+    - [Development page](#development-page)
+    - [Network page](#network-page)
+    - [Homepage](#homepage)
+  - [Manual Testing](#manual-testing)
+- [Credits](#credits)
+  - [Content](#content-1)
+  - [Media](#media)
+  - [Acknowledgements](#acknowledgements)
 
 ## User Experience
 
@@ -186,6 +195,57 @@ To clone the repository:
 <br>
 
 ## Testing
+
+### Accessibility Testing
+
+[Accessibility Insights for Web](https://accessibilityinsights.io/) was used to test site for accessibility and it returns the following error:
+
+#### Contact page
+
+* Returns **4 errors** indicating that the social media links on footer have no discernible text.\
+**Fixed Bug** - Fixed issues by adding accessible name that describes the links purpose to all the social media networks using **aria-label** attribute
+
+#### About Us page
+
+1. Returns **4 errors** indicating that the social media links on footer have no discernible text.\
+**Fixed Bug** - Fixed issues by adding accessible names that describe the links purpose to all the social media networks using aria-label attribute
+
+2. Returns **7 errors** indicating that **img** elements have no alternative text on site developers images.\
+**Fixed Bug** - Fixed issues by providing descriptive alternative text on all developers’ images using **alt** attribute.
+
+#### Learn page
+
+* Returns **22 errors** showing that featured women in tech’s social media links have no discernible text.\
+**Fixed Bug** - Fixed issues by providing accessible name that describes the links purpose to all the social media networks using **aria-label** attribute
+
+#### Development page
+
+1. Returns **4 errors** showing that the social media links on footer have no discernible text.\
+**Fixed Bug** - Fixed issues by providing accessible name that describes the purpose of social media networks links using **aria-label** attribute.
+
+2. Returns **12 color** contrast issues between foreground and background.\
+**Fixed Bug** - Fixed issues by changing the interactive color in in main.css from **#e600b6** to **#da00ac**.
+
+3. Returns 1 duplicate-id-aria issue.\
+**Fixed Bug** - Fixed issue by renaming the id “**flush-HeadingOne**” repeated in five accordions to “headingOne”, “headingTwo”, “headingThree”, “headingFour”, and “headingFive” for each accordion.
+
+#### Network page
+
+1. Returns **1 error** showing that iframe elements for **Google map** has no accessible name.\
+**Fixed Bug** - Fixed issue by providing accessible name to the **iframe** element that holds the Google Map link: **title=“Find Tech activities near you with Google Map”**
+
+2. Returns **13 errors** showing that the social media links in the featured Successful women in the industry section of the Network page have no discernible text.\
+**Fixed Bug** - Fixed issues by providing accessible name that describes the purpose of social media networks links using **aria-label** attribute.
+
+#### Homepage
+
+1. Returns **3 color-contrast** errors.\
+**Fixed Bug** - Fixed issues by adding “**color: #969090**” to card-title class in main.css.
+
+2. Returns **4 errors** indicating that the given social media links on footer have no discernible text.\
+**Fixed Bug** - Fixed issues by providing accessible name that describes the purpose of social media networks links using **aria-label** attribute.
+
+### Manual Testing
 
 * Navbar: All the links on the navbar are working.
   * I clicked on the logo and it took me to the index.html page
