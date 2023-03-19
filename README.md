@@ -234,7 +234,7 @@ To clone the repository:
 
 <br>
 
-* 404: When I try to access a page that does not exist, the 404.html page is showed.
+* 404: When I try to access a page that does not exist, the 404.html page is shown.
 ![404 Page](docs/404.JPG)
 
 <br>
