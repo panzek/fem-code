@@ -162,6 +162,20 @@ p {
   top: -5px;
   position: relative;
   display: flex;
+  animation-name: women-coding-zoom;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+/* KEY FRAMES FOR HERO IMAGE ANIMATION */
+@keyframes women-coding-zoom {
+  from {
+      transform: scale(1);
+  }
+
+  to {
+      transform: scale(1.1);
+  }
 }
 
 .hero-section .container {
@@ -194,6 +208,16 @@ p {
   text-align: center;
   margin: 55px 0 40px 0;
   display: block;
+}
+
+.connect {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: -20px;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 200;
+  color: black;
 }
 
 .network-card {
