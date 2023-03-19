@@ -56,7 +56,7 @@ Women working are often underrepresented in technical roles, particularly in lea
 
 * Easily navigate website content and pages
 * Ability to contact individuals to request mentorship
-* "ADD MORE DETAILS HERE"
+
 <br>
 
 ### User stories
@@ -74,7 +74,7 @@ Women working are often underrepresented in technical roles, particularly in lea
 
 [![My Tech Stack](https://github-readme-tech-stack.vercel.app/api/cards?title=Support%20Change&lineCount=1&line1=HTML5,HTML5,a41d4e;CSS3,CSS3,da4650;Bootstrap,Bootstrap,a85ac8;JavaScript,JavaScript,17acf8;)](https://github-readme-tech-stack.vercel.app/api/cards?title=Support%20Change&lineCount=1&line1=HTML5,HTML5,a41d4e;CSS3,CSS3,da4650;Bootstrap,Bootstrap,a85ac8;JavaScript,JavaScript,17acf8;)
 
-<!-- * Google APP Script was used to create the contact form. -->
+
 * Bootstrap: Boostrap enables building of webpages quickly, which is key in short turnaround project.
 * Git
 * GitHub
@@ -92,6 +92,7 @@ Women working are often underrepresented in technical roles, particularly in lea
   * [Stack Overflow](https://stackoverflow.com/): Stack Overflow was used to improve CSS design.
   * [Canva](https://www.canva.com/): Used to create the favicon.
   * [Am I Responsive](https://ui.dev/amiresponsive): Used to test website responsiveness.
+  * [Google App Script](https://developers.google.com/apps-script): Used to create the contact form.
 
 
 <br>
