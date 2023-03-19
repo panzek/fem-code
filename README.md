@@ -272,6 +272,21 @@ JSHint jQuery Validation Warnings             |        JSHint JavaScript Validat
 2. Returns **4 errors** indicating that the given social media links on footer have no discernible text.\
 **Fixed Bug** - Fixed issues by providing accessible name that describes the purpose of social media networks links using **aria-label** attribute.
 
+[Chrome's Lighthouse](https://developer.chrome.com/docs/lighthouse/) was used to test site for accessibility, performance, SEO, and best practices:
+
+1. For SEO, the site failed Lighthouse meta description audit.
+**Fixed Bug** - Fix issue by adding meta description and content attribute on all HTML pages
+
+2. Lighthouse Accessibility testing reported that heading elements are not sequentially-descending order.
+**Fixed Bug** - improved accessibility by changing the h5 element in the card section of the homepage to p tags
+
+Thereafter, we ran a final check through Chrome's lighthouse audit service, and it returns the report below:
+
+![Chrome's Lighthouse Audit Report](assets/images/lighthouse-audit-report.png)
+
+[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) was used to check the markup validity of the CSS3 for technical quality and correctness, and no errors found.
+![CSS Validation Result](assets/images/w3c-css-validator-results.png)
+
 ### Manual Testing
 
 * Navbar: All the links on the navbar are working.
