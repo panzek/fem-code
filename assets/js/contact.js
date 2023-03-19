@@ -1,4 +1,4 @@
-
+/*jshint esversion: 6 */
 
 document.addEventListener('DOMContentLoaded', function() {
     
@@ -63,7 +63,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         // Display success message in UI 
-        response = document.getElementById('response');
+        let response = document.getElementById('response');
         response.innerHTML = 
             `Hey ${name}, thank you for contacting us. We'll respond to your mail as soon as possible.`;
 
@@ -73,4 +73,4 @@ document.addEventListener('DOMContentLoaded', function() {
 
     }
 
-})
+});

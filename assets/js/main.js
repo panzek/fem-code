@@ -1,3 +1,5 @@
+/*jshint esversion: 6 */
+
 //NAVBAR BACKGROUND COLOR CHANGES WHEN WE SCROLL
 $(document).ready(function () {
   $(window).scroll(function () {
