@@ -38,6 +38,7 @@ Women working are often underrepresented in technical roles, particularly in lea
   - [How To Fork](#how-to-fork)
   - [How To Clone](#how-to-clone)
 - [Testing](#testing)
+  - [Validator Testing](#validator-testing)
   - [Accessibility Testing](#accessibility-testing)
     - [Contact page](#contact-page)
     - [About Us page](#about-us-page)
@@ -195,6 +196,32 @@ To clone the repository:
 <br>
 
 ## Testing
+
+### Validator Testing
+
+[JSHint](https://jshint.com/) was used to check for errors in the JavaScript and jQuery code:
+
+JSHint jQuery Validation Warnings             |        JSHint JavaScript Validation Warnings
+:-------------------------:|:-------------------------:
+![JSHint jQuery Validation Warnings](assets/images/testing-jshint-jquery-warnings.png)  |  ![JSHint JavaScript Validation Warnings](assets/images/testing-jshint-javascript-warnings.png)
+
+1. Testing main.js jQuery code on JSHint throws up six (6) warnings because of the const variable.\
+**Fixed Bug** - Set /*jshint esversion: 6 */ on top of the jQuery code, JSHint did not raise the warning when code was re-tested.
+
+2. Testing contact.js JavaScript code on JSHint returns eleven (11) warnings.
+
+- Fixed Bugs
+  - Seven (7) warnings for the **let** variable.\
+**Fixed issue** by setting /*jshint esversion: 6 */  on top of the jQuery code.
+
+  - One (1) warning for a missing semicolon.\
+**Fixed issue** by add a semicolon to the function close tag.
+
+  - Three (3) warnings for one undefined variable.\
+**Fixed issue** by using “let” to define the “**response**” variable.
+
+- Re-Test\
+**Re-tested** the jQuery and JavaScript after fixing the bugs and JSHint did not find any errors.
 
 ### Accessibility Testing
 
