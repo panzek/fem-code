@@ -9,7 +9,7 @@
 }
 
 :root {
-  --interactive-color: rgb(230, 0, 182);
+  --interactive-color: #da00ac;
   --white-color: #dad1d1;
 }
 
@@ -292,7 +292,7 @@ p {
 .develop-links,
 .accordion-body a,
 .network-links {
-  color: #e600b6;
+  color: #da00ac;
   text-decoration: underline;
 }
 
@@ -341,6 +341,7 @@ iframe {
 
 .card-title {
   font-weight: bold;
+  color: #969090;
 }
 
 .card-text {
@@ -601,20 +602,6 @@ iframe {
   background: #e600b6;
   height: 5px;
 }
-
-/* .social-media > a > i {
-  background-color: #e600b6;
-  padding: 5px;
-  border-radius: 5px;
-  color: #ffffff;
-  width: 30px;
-  text-align: center;
-}
-
-.social-media > a > i:hover {
-  background-color: #ffffff;
-  color: #e600b6;
-} */
 
 .page-404 {
   margin-top: 5%;
