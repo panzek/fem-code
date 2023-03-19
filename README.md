@@ -277,12 +277,15 @@ JSHint jQuery Validation Warnings             |        JSHint JavaScript Validat
 1. For SEO, the site failed Lighthouse meta description audit.
 **Fixed Bug** - Fix issue by adding meta description and content attribute on all HTML pages
 
-1. Lighthouse Accessibility testing reported that heading elements are not sequentially-descending order.
+2. Lighthouse Accessibility testing reported that heading elements are not sequentially-descending order.
 **Fixed Bug** - improved accessibility by changing the h5 element in the card section of the homepage to p tags
 
 Thereafter, we ran a final check through Chrome's lighthouse audit service, and it returns the report below:
 
 ![Chrome's Lighthouse Audit Report](assets/images/lighthouse-audit-report.png)
+
+[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/) was used to check the markup validity of the CSS3 for technical quality and correctness, and no errors found.
+![CSS Validation Result](assets/images/w3c-css-validator-results.png)
 
 ### Manual Testing
 
