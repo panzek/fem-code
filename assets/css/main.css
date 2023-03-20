@@ -26,6 +26,8 @@ img {
   width: 100%;
 }
 
+
+
 .logo {
   width: 150px;
   transition: all ease-in 0.3s;
@@ -202,6 +204,7 @@ p {
 
 .network-container {
   margin-top: 130px;
+  
 }
 
 .involved,
@@ -349,6 +352,8 @@ iframe {
 
 .learn-intro {
   margin-bottom: 30px;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 1rem;
 }
 
 .learn-intro p {
@@ -413,6 +418,14 @@ iframe {
   flex-wrap: wrap;
   background-color: rgb(160, 114, 160);
   height: 100%;
+}
+
+.about-heading {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  padding: 1rem;
+  color: white;
 }
 
 .about-section-img {
