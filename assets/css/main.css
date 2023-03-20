@@ -204,6 +204,7 @@ p {
 
 .network-container {
   margin-top: 130px;
+  
 }
 
 .involved,
@@ -418,6 +419,14 @@ iframe {
   flex-wrap: wrap;
   background-color: rgb(160, 114, 160);
   height: 100%;
+}
+
+.about-heading {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  padding: 1rem;
+  color: white;
 }
 
 .about-section-img {
