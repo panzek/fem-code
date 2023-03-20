@@ -105,8 +105,15 @@ p {
   --bs-navbar-brand-padding-y: 0.6rem;
 }
 
+@media screen and (max-width: 992px) {
+  .navbar {
+    padding: 20px 10px;
+  }
+}
+
 .activeLinks {
-  border-bottom: 2px solid var(--interactive-color);
+  border-left: 2px solid var(--interactive-color);
+  border-right: 2px solid var(--interactive-color);
   display: block;
   padding: 0.5rem 1rem;
   text-decoration: none;
@@ -116,9 +123,19 @@ p {
   font-size: 160%;
 }
 
+@media screen and (max-width: 992px) {
+  .activeLinks {
+    background: #ffffff;
+    color: #d30cec;
+    border-bottom: none;
+  }
+}
+
+
 .navbar-expand-lg .navbar-nav .nav-link:hover {
-  border-bottom: 2px solid #a072a0;
-  color: rgba(0, 0, 0, 0.556);
+  color: var(--white-color);
+  font-size: 160%;
+  transition: 0.5s;
 }
 
 .navbar .navbar-collapse,
