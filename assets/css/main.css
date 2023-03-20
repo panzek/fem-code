@@ -26,6 +26,8 @@ img {
   width: 100%;
 }
 
+
+
 .logo {
   width: 150px;
   transition: all ease-in 0.3s;
@@ -103,8 +105,15 @@ p {
   --bs-navbar-brand-padding-y: 0.6rem;
 }
 
+@media screen and (max-width: 992px) {
+  .navbar {
+    padding: 20px 10px;
+  }
+}
+
 .activeLinks {
-  border-bottom: 2px solid var(--interactive-color);
+  border-left: 2px solid var(--interactive-color);
+  border-right: 2px solid var(--interactive-color);
   display: block;
   padding: 0.5rem 1rem;
   text-decoration: none;
@@ -114,9 +123,19 @@ p {
   font-size: 160%;
 }
 
+@media screen and (max-width: 992px) {
+  .activeLinks {
+    background: #ffffff;
+    color: #d30cec;
+    border-bottom: none;
+  }
+}
+
+
 .navbar-expand-lg .navbar-nav .nav-link:hover {
-  border-bottom: 2px solid #a072a0;
-  color: rgba(0, 0, 0, 0.556);
+  color: var(--white-color);
+  font-size: 160%;
+  transition: 0.5s;
 }
 
 .navbar .navbar-collapse,
@@ -162,6 +181,21 @@ p {
   top: -5px;
   position: relative;
   display: flex;
+  animation-name: women-coding-zoom;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+  overflow: hidden;
+}
+
+/* KEY FRAMES FOR HERO IMAGE ANIMATION */
+@keyframes women-coding-zoom {
+  from {
+      transform: scale(1);
+  }
+
+  to {
+      transform: scale(1.1);
+  }
 }
 
 .hero-section .container {
@@ -187,6 +221,7 @@ p {
 
 .network-container {
   margin-top: 130px;
+  
 }
 
 .involved,
@@ -194,6 +229,18 @@ p {
   text-align: center;
   margin: 55px 0 40px 0;
   display: block;
+  text-decoration: underline;
+}
+
+.connect {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: -20px;
+  font-size: 18px;
+  font-weight: 200;
+  color: #dad1d1;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 1rem;  
 }
 
 .network-card {
@@ -206,6 +253,7 @@ p {
   width: 100%;
   display: flex;
   flex-direction: column;
+  margin-bottom: 20px;
 }
 
 .success {
@@ -249,7 +297,6 @@ p {
   width: 100%;
   display: flex;
   flex-direction: column;
-  margin: 0 25px 0 25px;
 }
 
 .card h3 {
@@ -323,6 +370,16 @@ iframe {
 
 /* LEARN PAGE */
 
+.learn-intro {
+  margin-bottom: 30px;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 1rem;
+}
+
+.learn-intro p {
+  font-size: 16px !important;
+}
+
 .container-profile {
   padding-top: 175px;
 }
@@ -381,6 +438,14 @@ iframe {
   flex-wrap: wrap;
   background-color: rgb(160, 114, 160);
   height: 100%;
+}
+
+.about-heading {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  padding: 1rem;
+  color: white;
 }
 
 .about-section-img {
@@ -521,46 +586,6 @@ iframe {
   margin-top: 5%;
 }
 
-/* Start of media queries section*/
-/* Portrait */
-
-/* Screen sizes equal to or narrower 280px wide */
-@media screen and (max-width: 280px) and (orientation: portrait) {
-  .page-404 {
-    margin-top: 6em;
-  }
-
-  .page-404-image {
-    margin-bottom: 5em;
-  }
-
-  .page-404-text-display {
-    display: none;
-  }
-
-  .btn.page-404-btn-display {
-    border: 1px solid var(--interactive-color);
-    margin-top: 0.8em;
-    padding: 5px;
-    font-size: 0.8rem;
-  }
-}
-
-/* Screen sizes equal to or narrower 540px wide */
-@media screen and (max-width: 540px) and (orientation: portrait) {
-  .page-404 {
-    margin-top: 8em;
-  }
-
-  .page-404-image {
-    margin-bottom: 5em;
-  }
-
-  .page-404-text-display {
-    display: none;
-  }
-}
-
 /* FOOTER */
 .footer {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), #000000),
@@ -571,6 +596,7 @@ iframe {
   width: 100%;
   height: auto;
   margin-top: 100px;
+  padding: 30px 40px !important;
 }
 
 .footer .logo {
@@ -583,7 +609,6 @@ iframe {
 
 .footer p {
   font-size: 0.9rem;
-  width: 300px;
   color: rgb(128, 128, 128);
 }
 
@@ -630,6 +655,23 @@ iframe {
     padding: 5px;
     font-size: 0.8rem;
   }
+
+  .hero-section h1 {
+    font-size: 1.8rem;;
+  }
+
+  .hero-section p {
+    font-size: 0.7rem;
+    word-wrap: break-word;
+  }
+
+  #card-section {
+    padding-right: 40px !important;
+  }
+
+  #card-section .card-img {
+    height: 100px !important;
+  }
 }
 
 /* Screen sizes equal to or narrower 540px wide */
@@ -644,5 +686,38 @@ iframe {
 
   .page-404-text-display {
     display: none;
+  }
+
+  .hero-section h1 {
+    font-size: 2rem;;
+  }
+
+  .hero-section p {
+    font-size: 0.9rem;
+  }
+
+  .card-learn {
+    margin: 0;
+  }
+
+  .card-learn .card-text {
+    font-size: 1rem !important;
+  }
+  
+}
+
+/* Screen sizes equal to or narrower 990px wide */
+@media screen and (max-width: 990px) {
+  .title{
+    font-size: 3.5rem;;
+  }
+  
+  .learn-card .card-title,
+  .learn-card .card-text {
+    font-size: 1.1rem;;
+  }
+
+  .card-learn .card-text {
+    font-size: 1.2rem !important;
   }
 }
