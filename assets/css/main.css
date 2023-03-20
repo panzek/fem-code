@@ -229,6 +229,7 @@ p {
   text-align: center;
   margin: 55px 0 40px 0;
   display: block;
+  text-decoration: underline;
 }
 
 .connect {
@@ -238,6 +239,8 @@ p {
   font-size: 18px;
   font-weight: 200;
   color: #dad1d1;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 1rem;  
 }
 
 .network-card {
