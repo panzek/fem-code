@@ -352,6 +352,8 @@ iframe {
 
 .learn-intro {
   margin-bottom: 30px;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 1rem;
 }
 
 .learn-intro p {
