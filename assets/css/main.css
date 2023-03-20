@@ -13,6 +13,12 @@
   --white-color: #dad1d1;
 }
 
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   background-color: #a072a0;
@@ -25,8 +31,6 @@ body {
 img {
   width: 100%;
 }
-
-
 
 .logo {
   width: 150px;
@@ -131,7 +135,6 @@ p {
   }
 }
 
-
 .navbar-expand-lg .navbar-nav .nav-link:hover {
   color: var(--white-color);
   font-size: 160%;
@@ -141,6 +144,11 @@ p {
 .navbar .navbar-collapse,
 .social-contact ul {
   justify-content: end;
+}
+
+.navbar-brand ~ [type="button"]:not(:disabled),
+button:not(:disabled) {
+  background-color: #da00ac80;
 }
 
 @media screen and (max-width: 992px) {
@@ -190,11 +198,11 @@ p {
 /* KEY FRAMES FOR HERO IMAGE ANIMATION */
 @keyframes women-coding-zoom {
   from {
-      transform: scale(1);
+    transform: scale(1);
   }
 
   to {
-      transform: scale(1.1);
+    transform: scale(1.1);
   }
 }
 
@@ -221,7 +229,6 @@ p {
 
 .network-container {
   margin-top: 130px;
-  
 }
 
 .involved,
@@ -274,7 +281,7 @@ p {
   font-size: 25px;
 }
 
-.socials span a, 
+.socials span a,
 .success span a {
   padding: 3px;
 }
@@ -428,7 +435,7 @@ iframe {
 }
 
 .form-floating span {
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 /*ABOUT US PAGE */
@@ -657,7 +664,7 @@ iframe {
   }
 
   .hero-section h1 {
-    font-size: 1.8rem;;
+    font-size: 1.8rem;
   }
 
   .hero-section p {
@@ -689,7 +696,7 @@ iframe {
   }
 
   .hero-section h1 {
-    font-size: 2rem;;
+    font-size: 2rem;
   }
 
   .hero-section p {
@@ -703,18 +710,17 @@ iframe {
   .card-learn .card-text {
     font-size: 1rem !important;
   }
-  
 }
 
 /* Screen sizes equal to or narrower 990px wide */
 @media screen and (max-width: 990px) {
-  .title{
-    font-size: 3.5rem;;
+  .title {
+    font-size: 3.5rem;
   }
-  
+
   .learn-card .card-title,
   .learn-card .card-text {
-    font-size: 1.1rem;;
+    font-size: 1.1rem;
   }
 
   .card-learn .card-text {
